@@ -84,17 +84,17 @@ The `logo` property consists of an object. It has the following properties:
 | `href` | The `href` property contains the URL of the logo.                                                  | No       |
 | `src`  | The `src` property contains the source of the image.                                               | No       |
 
-The `DesktopMenuBar` uses the following CSS variables:
+The `DesktopMenuBar` component uses the following CSS variables:
 
 - `--src-desktop-menu-bar-badge-color`
+- `--src-desktop-menu-bar-columns`
 - `--src-desktop-menu-bar-primary-color-0`
 - `--src-desktop-menu-bar-primary-color-1`
 - `--src-desktop-menu-bar-primary-color-2`
 - `--src-desktop-menu-bar-primary-color-3`
 - `--src-desktop-menu-bar-secondary-color`
-- `--src-desktop-menu-bar-columns`
 
-The `MobileMenuBar` uses the following CSS variables:
+The `MobileMenuBar` component uses the following CSS variables:
 
 - `--src-mobile-menu-bar-badge-color`
 - `--src-mobile-menu-bar-primary-color-0`
