@@ -35,6 +35,8 @@ The `MenuBar` component uses the following properties:
 | `styleDesktopMenuBar` | The `styleDesktopMenuBar` property is used for styling the `DesktopMenuBar` component. | Yes      |
 | `styleMobileMenuBar`  | The `styleMobileMenuBar` property is used for styling the `MobileMenuBar` component.   | Yes      |
 
+###### The `items` property
+
 The `items` property consists of an array with objects. Each object contains the following properties:
 
 | Name        | Description                                                                                                | Optional |
@@ -48,11 +50,15 @@ The `items` property consists of an array with objects. Each object contains the
 | `items`     | The `items` property contains the items of the current menu.                                               | Yes      |
 | `text`      | The `text` property contains the text to be rendered for the current menu.                                 | No       |
 
+###### The `items` property
+
 The `items` property described in the table above consists of an array with objects. Each object contains the following properties:
 
 | Name    | Description                                                      | Optional |
 | ------- | ---------------------------------------------------------------- | -------- |
 | `items` | The `items` property contains the items of the current sub-menu. | No       |
+
+###### The `items` property
 
 The `items` property described in the table above consists of an array with objects. Each object contains the following properties:
 
@@ -63,6 +69,8 @@ The `items` property described in the table above consists of an array with obje
 | `icon`    | The `icon` property contains the icon to be rendered for the current menu item. For example Font Awesome icons.      | Yes      |
 | `onClick` | The `onClick` property contains an on-click function. Use this instead of `href` to render a button.                 | Yes      |
 | `text`    | The `text` property contains the text to be rendered for the current menu item.                                      | No       |
+
+###### The `linkFactory` property
 
 The `linkFactory` property is a function that looks like the following by default:
 
@@ -76,6 +84,8 @@ function linkFactory(className, href, onClick, children) {
 }
 ```
 
+###### The `logo` property
+
 The `logo` property consists of an object. It has the following properties:
 
 | Name   | Description                                                                                        | Optional |
@@ -83,6 +93,8 @@ The `logo` property consists of an object. It has the following properties:
 | `alt`  | The `alt` property contains the alternative text to be rendered if the image cannot be downloaded. | No       |
 | `href` | The `href` property contains the URL of the logo.                                                  | No       |
 | `src`  | The `src` property contains the source of the image.                                               | No       |
+
+###### Styling
 
 The `DesktopMenuBar` component uses the following CSS variables:
 
@@ -102,6 +114,8 @@ The `MobileMenuBar` component uses the following CSS variables:
 - `--src-mobile-menu-bar-primary-color-2`
 - `--src-mobile-menu-bar-primary-color-3`
 - `--src-mobile-menu-bar-secondary-color`
+
+###### Example
 
 The following example demonstrates how you can create your own implementation of the `MenuBar` component.
 
