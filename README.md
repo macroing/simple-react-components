@@ -16,11 +16,71 @@ To add this library to your project, you can type the following in Git Bash.
 npm install @macroing/simple-react-components
 ```
 
-## Examples
+## Components
 
-Below follows a few examples that demonstrates various features in `@macroing/simple-react-components`.
+In this section the components in `@macroing/simple-react-components` will be described.
 
-#### MenuBar Example
+#### MenuBar
+
+The `MenuBar` component represents a menu bar. It uses either the `DesktopMenuBar` or the `MobileMenuBar` components when rendering. This depends on the window resolution.
+
+The `MenuBar` component uses the following properties:
+
+| Name          | Description                                                              | Optional |
+| ------------- | ------------------------------------------------------------------------ | -------- |
+| `columns`     | The `columns` property describes how many columns the menus should have. | Yes      |
+| `items`       | The `items` property contains the items of the menu bar.                 | No       |
+| `linkFactory` | The `linkFactory` property is a function that returns a link.            | Yes      |
+| `logo`        | The `logo` property contains the logo of the menu bar.                   | Yes      |
+
+The `items` property consists of an array with objects. Each object contains the following properties:
+
+| Name        | Description                                                                                                | Optional |
+| ----------- | ---------------------------------------------------------------------------------------------------------- | -------- |
+| `badge`     | The `badge` property contains the badge to render for the current menu.                                    | Yes      |
+| `columns`   | The `columns` property describes how many columns the current menu should have.                            | Yes      |
+| `component` | The `component` property contains a component to render in the current menu.                               | Yes      |
+| `href`      | The `href` property contains the URL for the current menu.                                                 | Yes      |
+| `icon`      | The `icon` property contains the icon to be rendered for the current menu. For example Font Awesome icons. | Yes      |
+| `id`        | The `id` property contains the unique ID for the current menu.                                             | No       |
+| `items`     | The `items` property contains the items of the current menu.                                               | Yes      |
+| `text`      | The `text` property contains the text to be rendered for the current menu.                                 | No       |
+
+The `items` property described in the table above consists of an array with objects. Each object contains the following properties:
+
+| Name    | Description                                                      | Optional |
+| ------- | ---------------------------------------------------------------- | -------- |
+| `items` | The `items` property contains the items of the current sub-menu. | No       |
+
+The `items` property described in the table above consists of an array with objects. Each object contains the following properties:
+
+| Name      | Description                                                                                                          | Optional |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| `badge`   | The `badge` property contains the badge to render for the current menu item.                                         | Yes      |
+| `href`    | The `href` property contains the URL for the current menu item link. Use this instead of `onClick` to render a link. | Yes      |
+| `icon`    | The `icon` property contains the icon to be rendered for the current menu item. For example Font Awesome icons.      | Yes      |
+| `onClick` | The `onClick` property contains an on-click function. Use this instead of `href` to render a button.                 | Yes      |
+| `text`    | The `text` property contains the text to be rendered for the current menu item.                                      | No       |
+
+The `linkFactory` property is a function that looks like the following by default:
+
+```jsx
+function linkFactory(className, href, onClick, children) {
+  return (
+    <a className={className} href={href} onClick={onClick}>
+      {children}
+    </a>
+  );
+}
+```
+
+The `logo` property consists of an object. It has the following properties:
+
+| Name   | Description                                                                                        | Optional |
+| ------ | -------------------------------------------------------------------------------------------------- | -------- |
+| `alt`  | The `alt` property contains the alternative text to be rendered if the image cannot be downloaded. | No       |
+| `href` | The `href` property contains the URL of the logo.                                                  | No       |
+| `src`  | The `src` property contains the source of the image.                                               | No       |
 
 The following example demonstrates how you can create your own implementation of the `MenuBar` component.
 
@@ -45,25 +105,19 @@ export default function CustomMenuBar(props) {
   useEffect(() => {
     setItems([
       {
-        badge: null,
-        columns: 1,
         href: "/",
         icon: "fa fa-home",
         id: 0,
-        items: [],
         text: "Home",
       },
       {
         badge: "2",
-        columns: 1,
-        href: null,
         icon: "fa fa-user",
         id: 1,
         items: [
           {
             items: [
               {
-                badge: null,
                 href: "/profile",
                 icon: "fa fa-user",
                 text: "Profile",
@@ -81,13 +135,11 @@ export default function CustomMenuBar(props) {
                 text: "Notifications",
               },
               {
-                badge: null,
                 href: "/settings",
                 icon: "fa fa-cog",
                 text: "Settings",
               },
               {
-                badge: null,
                 icon: "fa fa-sign-out",
                 onClick: (e) => {},
                 text: "Log out",
@@ -98,22 +150,15 @@ export default function CustomMenuBar(props) {
         text: "Account",
       },
       {
-        badge: null,
-        columns: 1,
         component: <div style={{ whiteSpace: "nowrap" }}>Your shopping cart is empty.</div>,
-        href: null,
         icon: "fa fa-shopping-cart",
         id: 2,
-        items: null,
         text: "Shopping Cart",
       },
       {
-        badge: null,
-        columns: 1,
         href: "/admin",
         icon: "fa fa-dashboard",
         id: 3,
-        items: [],
         text: "Admin",
       },
     ]);
