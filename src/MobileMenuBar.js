@@ -13,9 +13,9 @@ export default function MobileMenuBar(props) {
 
   const [selectedItem, setSelectedItem] = useState(null);
 
-  function defaultLinkFactory(href, onClick, children) {
+  function defaultLinkFactory(className, href, onClick, children) {
     return (
-      <a href={href} onClick={onClick}>
+      <a className={className} href={href} onClick={onClick}>
         {children}
       </a>
     );
@@ -36,35 +36,36 @@ export default function MobileMenuBar(props) {
 
   return (
     <nav className={styles.mobile_menu_bar}>
-      {logo && linkFactory(logo.href, undefined, <img alt={logo.alt} src={logo.src} />)}
+      {logo && linkFactory(styles.a, logo.href, undefined, <img alt={logo.alt} className={styles.img} src={logo.src} />)}
       <div className={styles.icon} onClick={onMobileMenuToggle} ref={mobileMenuBarIconRef}>
         <div className={styles.middle}></div>
       </div>
       <div className={styles.content} ref={mobileMenuContentRef}>
-        <ul>
+        <ul className={styles.ul}>
           {items.map((item, itemIndex) => (
-            <li className={selectedItem && selectedItem.id === item.id ? styles.active : undefined} key={"item-" + itemIndex}>
+            <li className={styles.li + (selectedItem && selectedItem.id === item.id ? " " + styles.active : "")} key={"item-" + itemIndex}>
               {item.href ? (
                 linkFactory(
+                  styles.a,
                   item.href,
                   (e) => {
                     onMobileMenuToggle();
                     setSelectedItem(null);
                   },
-                  <div>
+                  <div className={styles.div}>
                     {item.icon && <span aria-hidden className={item.icon}></span>} <span>{item.text}</span> {item.badge && <span className={styles.badge}>{item.badge}</span>}
                   </div>
                 )
               ) : item.onClick ? (
-                <button onClick={item.onClick}>
-                  <div>
+                <button className={styles.button} onClick={item.onClick}>
+                  <div className={styles.div}>
                     {item.icon && <span aria-hidden className={item.icon}></span>} <span>{item.text}</span> {item.badge && <span className={styles.badge}>{item.badge}</span>}
                   </div>
                 </button>
               ) : (
                 <>
-                  <button onClick={(e) => onClick(item)}>
-                    <div>
+                  <button className={styles.button} onClick={(e) => onClick(item)}>
+                    <div className={styles.div}>
                       {item.icon && <span aria-hidden className={item.icon}></span>} <span>{item.text}</span> {item.badge && <span className={styles.badge}>{item.badge}</span>}
                     </div>{" "}
                     <span aria-hidden className={"fa fa-chevron-" + (selectedItem && selectedItem.id === item.id ? "up" : "down")}></span>
@@ -74,11 +75,12 @@ export default function MobileMenuBar(props) {
                       {selectedItem.items &&
                         selectedItem.items.map((a, aIndex) => (
                           <div className={styles.sub_menu} key={"a-" + aIndex}>
-                            <ul>
+                            <ul className={styles.ul}>
                               {a.items.map((b, bIndex) => (
-                                <li key={"b-" + bIndex}>
+                                <li className={styles.li} key={"b-" + bIndex}>
                                   {b.href ? (
                                     linkFactory(
+                                      styles.a,
                                       b.href,
                                       (e) => {
                                         onMobileMenuToggle();
@@ -89,11 +91,11 @@ export default function MobileMenuBar(props) {
                                       </>
                                     )
                                   ) : b.onClick ? (
-                                    <button onClick={b.onClick}>
+                                    <button className={styles.button} onClick={b.onClick}>
                                       {b.icon && <span aria-hidden className={b.icon + " " + styles.icon}></span>} <span>{b.text}</span> {b.badge && <span className={styles.badge}>{b.badge}</span>}
                                     </button>
                                   ) : (
-                                    <div>
+                                    <div className={styles.div}>
                                       {b.icon && <span aria-hidden className={b.icon + " " + styles.icon}></span>} <span>{b.text}</span> {b.badge && <span className={styles.badge}>{b.badge}</span>}
                                     </div>
                                   )}

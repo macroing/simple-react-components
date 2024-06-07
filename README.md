@@ -1,9 +1,9 @@
-@macroing/simple-react-components
-=================================
+# @macroing/simple-react-components
+
 `@macroing/simple-react-components` is a simple React components library.
 
-Getting Started
----------------
+## Getting Started
+
 To clone this repository, you can type the following in Git Bash.
 
 ```bash
@@ -16,12 +16,14 @@ To add this library to your project, you can type the following in Git Bash.
 npm install @macroing/simple-react-components
 ```
 
-Examples
---------
+## Examples
+
 Below follows a few examples that demonstrates various features in `@macroing/simple-react-components`.
 
 #### MenuBar Example
+
 The following example demonstrates how you can create your own implementation of the `MenuBar` component.
+
 ```jsx
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -32,9 +34,9 @@ export default function CustomMenuBar(props) {
   const [items, setItems] = useState([]);
   const [logo, setLogo] = useState({ alt: "Logo", href: "/", src: "/logo.png" });
 
-  function linkFactory(href, onClick, children) {
+  function linkFactory(className, href, onClick, children) {
     return (
-      <Link href={href} onClick={onClick}>
+      <Link className={className} href={href} onClick={onClick}>
         {children}
       </Link>
     );
@@ -121,6 +123,6 @@ export default function CustomMenuBar(props) {
 }
 ```
 
-Note
-----
+## Note
+
 This library has not reached version 1.0.0 and been released to the public yet. Therefore, you can expect that backward incompatible changes are likely to occur between commits. When this library reaches version 1.0.0, it will be tagged and available on the "releases" page. At that point, backward incompatible changes should only occur when a new major release is made.

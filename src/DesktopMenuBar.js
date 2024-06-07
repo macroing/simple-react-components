@@ -11,9 +11,9 @@ export default function DesktopMenuBar(props) {
 
   const [selectedItem, setSelectedItem] = useState(null);
 
-  function defaultLinkFactory(href, onClick, children) {
+  function defaultLinkFactory(className, href, onClick, children) {
     return (
-      <a href={href} onClick={onClick}>
+      <a className={className} href={href} onClick={onClick}>
         {children}
       </a>
     );
@@ -29,12 +29,13 @@ export default function DesktopMenuBar(props) {
 
   return (
     <nav className={styles.desktop_menu_bar} style={{ "--src-desktop-menu-bar-columns": columns }}>
-      {logo && linkFactory(logo.href, undefined, <img alt={logo.alt} src={logo.src} />)}
-      <ul>
+      {logo && linkFactory(styles.a, logo.href, undefined, <img alt={logo.alt} className={styles.img} src={logo.src} />)}
+      <ul className={styles.ul}>
         {items.map((item, itemIndex) => (
-          <li className={selectedItem && selectedItem.id === item.id ? styles.active : undefined} key={"item-" + itemIndex}>
+          <li className={styles.li + (selectedItem && selectedItem.id === item.id ? " " + styles.active : "")} key={"item-" + itemIndex}>
             {item.href ? (
               linkFactory(
+                styles.a,
                 item.href,
                 undefined,
                 <>
@@ -44,13 +45,13 @@ export default function DesktopMenuBar(props) {
                 </>
               )
             ) : item.onClick ? (
-              <button onClick={item.onClick}>
+              <button className={styles.button} onClick={item.onClick}>
                 {item.icon && <span aria-hidden className={item.icon}></span>}
                 <span>{item.text}</span>
                 {item.badge && <span className={styles.badge}>{item.badge}</span>}
               </button>
             ) : (
-              <button onClick={(e) => onClick(item)}>
+              <button className={styles.button} onClick={(e) => onClick(item)}>
                 {item.icon && <span aria-hidden className={item.icon}></span>}
                 <span>{item.text}</span>
                 {item.badge && <span className={styles.badge}>{item.badge}</span>}
@@ -62,11 +63,12 @@ export default function DesktopMenuBar(props) {
                 {selectedItem.items &&
                   selectedItem.items.map((a, aIndex) => (
                     <div className={styles.sub_menu} key={"a-" + aIndex}>
-                      <ul>
+                      <ul className={styles.ul}>
                         {a.items.map((b, bIndex) => (
-                          <li key={"b-" + bIndex}>
+                          <li className={styles.li} key={"b-" + bIndex}>
                             {b.href ? (
                               linkFactory(
+                                styles.a,
                                 b.href,
                                 (e) => setSelectedItem(null),
                                 <>
@@ -74,11 +76,11 @@ export default function DesktopMenuBar(props) {
                                 </>
                               )
                             ) : b.onClick ? (
-                              <button onClick={b.onClick}>
+                              <button className={styles.button} onClick={b.onClick}>
                                 {b.icon && <span aria-hidden className={b.icon + " " + styles.icon}></span>} <span>{b.text}</span> {b.badge && <span className={styles.badge}>{b.badge}</span>}
                               </button>
                             ) : (
-                              <div>
+                              <div className={styles.div}>
                                 {b.icon && <span aria-hidden className={b.icon + " " + styles.icon}></span>} <span>{b.text}</span> {b.badge && <span className={styles.badge}>{b.badge}</span>}
                               </div>
                             )}
