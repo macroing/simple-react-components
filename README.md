@@ -203,6 +203,29 @@ export default function CustomMenuBar(props) {
 }
 ```
 
+### TabPane
+
+The `TabPane` component represents a tab pane.
+
+The `TabPane` component uses the following properties:
+
+| Name       | Description                                                                                                 | Optional |
+| ---------- | ----------------------------------------------------------------------------------------------------------- | -------- |
+| `children` | The `children` property consists of a function that renders the content of the current tab.                 | No       |
+| `styles`   | The `styles` property contains the class names for all elements.                                            | Yes      |
+| `tabIndex` | The `tabIndex` property contains the index of the tab to start at.                                          | Yes      |
+| `tabs`     | The `tabs` property contains an array of tabs. The content of the array is the text to render for each tab. | No       |
+
+#### Example
+
+The following example demonstrates how you can use the `TabPane` component.
+
+```jsx
+<TabPane tabIndex={0} tabs={["Tab 1", "Tab 2", "Tab 3"]}>
+  {(currentTabIndex, currentTab) => <div>{currentTab}</div>}
+</TabPane>
+```
+
 ## Note
 
 This library has not reached version 1.0.0 and been released to the public yet. Therefore, you can expect that backward incompatible changes are likely to occur between commits. When this library reaches version 1.0.0, it will be tagged and available on the "releases" page. At that point, backward incompatible changes should only occur when a new major release is made.
