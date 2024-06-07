@@ -6,6 +6,7 @@ export default function MobileMenuBar(props) {
   const items = props.items;
   const linkFactory = props.linkFactory || defaultLinkFactory;
   const logo = props.logo;
+  const style = props.style;
   const styles = props.styles || importedStyles;
 
   const mobileMenuBarIconRef = useRef();
@@ -35,7 +36,7 @@ export default function MobileMenuBar(props) {
   }
 
   return (
-    <nav className={styles.mobile_menu_bar}>
+    <nav className={styles.mobile_menu_bar} style={style}>
       {logo && linkFactory(styles.a, logo.href, undefined, <img alt={logo.alt} className={styles.img} src={logo.src} />)}
       <div className={styles.icon} onClick={onMobileMenuToggle} ref={mobileMenuBarIconRef}>
         <div className={styles.middle}></div>

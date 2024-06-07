@@ -7,6 +7,7 @@ export default function DesktopMenuBar(props) {
   const items = props.items;
   const linkFactory = props.linkFactory || defaultLinkFactory;
   const logo = props.logo;
+  const style = props.style || {};
   const styles = props.styles || importedStyles;
 
   const [selectedItem, setSelectedItem] = useState(null);
@@ -28,7 +29,7 @@ export default function DesktopMenuBar(props) {
   }
 
   return (
-    <nav className={styles.desktop_menu_bar} style={{ "--src-desktop-menu-bar-columns": columns }}>
+    <nav className={styles.desktop_menu_bar} style={{ "--src-desktop-menu-bar-columns": columns, ...style }}>
       {logo && linkFactory(styles.a, logo.href, undefined, <img alt={logo.alt} className={styles.img} src={logo.src} />)}
       <ul className={styles.ul}>
         {items.map((item, itemIndex) => (

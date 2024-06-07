@@ -26,12 +26,14 @@ The `MenuBar` component represents a menu bar. It uses either the `DesktopMenuBa
 
 The `MenuBar` component uses the following properties:
 
-| Name          | Description                                                              | Optional |
-| ------------- | ------------------------------------------------------------------------ | -------- |
-| `columns`     | The `columns` property describes how many columns the menus should have. | Yes      |
-| `items`       | The `items` property contains the items of the menu bar.                 | No       |
-| `linkFactory` | The `linkFactory` property is a function that returns a link.            | Yes      |
-| `logo`        | The `logo` property contains the logo of the menu bar.                   | Yes      |
+| Name                  | Description                                                                            | Optional |
+| --------------------- | -------------------------------------------------------------------------------------- | -------- |
+| `columns`             | The `columns` property describes how many columns the menus should have.               | Yes      |
+| `items`               | The `items` property contains the items of the menu bar.                               | No       |
+| `linkFactory`         | The `linkFactory` property is a function that returns a link.                          | Yes      |
+| `logo`                | The `logo` property contains the logo of the menu bar.                                 | Yes      |
+| `styleDesktopMenuBar` | The `styleDesktopMenuBar` property is used for styling the `DesktopMenuBar` component. | Yes      |
+| `styleMobileMenuBar`  | The `styleMobileMenuBar` property is used for styling the `MobileMenuBar` component.   | Yes      |
 
 The `items` property consists of an array with objects. Each object contains the following properties:
 
@@ -81,6 +83,25 @@ The `logo` property consists of an object. It has the following properties:
 | `alt`  | The `alt` property contains the alternative text to be rendered if the image cannot be downloaded. | No       |
 | `href` | The `href` property contains the URL of the logo.                                                  | No       |
 | `src`  | The `src` property contains the source of the image.                                               | No       |
+
+The `DesktopMenuBar` uses the following CSS variables:
+
+- `--src-desktop-menu-bar-badge-color`
+- `--src-desktop-menu-bar-primary-color-0`
+- `--src-desktop-menu-bar-primary-color-1`
+- `--src-desktop-menu-bar-primary-color-2`
+- `--src-desktop-menu-bar-primary-color-3`
+- `--src-desktop-menu-bar-secondary-color`
+- `--src-desktop-menu-bar-columns`
+
+The `MobileMenuBar` uses the following CSS variables:
+
+- `--src-mobile-menu-bar-badge-color`
+- `--src-mobile-menu-bar-primary-color-0`
+- `--src-mobile-menu-bar-primary-color-1`
+- `--src-mobile-menu-bar-primary-color-2`
+- `--src-mobile-menu-bar-primary-color-3`
+- `--src-mobile-menu-bar-secondary-color`
 
 The following example demonstrates how you can create your own implementation of the `MenuBar` component.
 

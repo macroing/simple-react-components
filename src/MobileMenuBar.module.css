@@ -6,7 +6,7 @@
   --src-mobile-menu-bar-primary-color-2: #dddddd;
   --src-mobile-menu-bar-primary-color-3: #333333;
 
-  --src-mobile-menu-bar-secondary-color-0: #1877f2;
+  --src-mobile-menu-bar-secondary-color: #1877f2;
 
   align-items: center;
   background-color: var(--src-mobile-menu-bar-primary-color-1);
@@ -79,7 +79,7 @@
 }
 
 .mobile_menu_bar > .content > .ul > .li:hover {
-  color: var(--src-mobile-menu-bar-secondary-color-0);
+  color: var(--src-mobile-menu-bar-secondary-color);
   cursor: pointer;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .mobile_menu_bar > .content > .ul > .li > .a:hover {
-  color: var(--src-mobile-menu-bar-secondary-color-0);
+  color: var(--src-mobile-menu-bar-secondary-color);
   text-decoration: none;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .mobile_menu_bar > .content > .ul > .li > .button:hover {
-  color: var(--src-mobile-menu-bar-secondary-color-0);
+  color: var(--src-mobile-menu-bar-secondary-color);
   cursor: pointer;
 }
 
@@ -181,7 +181,7 @@
 
 .mobile_menu_bar > .content > .ul > .li > .menu {
   background-color: var(--src-mobile-menu-bar-primary-color-0);
-  border-left: 3px solid var(--src-mobile-menu-bar-secondary-color-0);
+  border-left: 3px solid var(--src-mobile-menu-bar-secondary-color);
   border-top: 1px solid var(--src-mobile-menu-bar-primary-color-2);
   cursor: default;
   display: grid;
@@ -234,7 +234,7 @@
 }
 
 .mobile_menu_bar > .content > .ul > .li > .menu > .sub_menu > .ul > .li > .a:hover {
-  color: var(--src-mobile-menu-bar-secondary-color-0);
+  color: var(--src-mobile-menu-bar-secondary-color);
   text-decoration: none;
 }
 
@@ -280,7 +280,7 @@
 }
 
 .mobile_menu_bar > .content > .ul > .li > .menu > .sub_menu > .ul > .li > .button:hover {
-  color: var(--src-mobile-menu-bar-secondary-color-0);
+  color: var(--src-mobile-menu-bar-secondary-color);
   cursor: pointer;
 }
 
