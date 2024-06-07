@@ -3,7 +3,7 @@ import { useState } from "react";
 import importedStyles from "./DesktopMenuBar.module.css";
 
 export default function DesktopMenuBar(props) {
-  const columns = props.columns;
+  const columns = props.columns || 1;
   const items = props.items;
   const linkFactory = props.linkFactory || defaultLinkFactory;
   const logo = props.logo;
