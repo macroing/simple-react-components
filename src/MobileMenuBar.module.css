@@ -194,6 +194,15 @@
   width: 100%;
 }
 
+.mobile_menu_bar > .content > ul > li > .menu > .component {
+  align-items: flex-start;
+  color: var(--src-mobile-menu-bar-primary-color-3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+}
+
 .mobile_menu_bar > .content > ul > li > .menu > .sub_menu {
   display: flex;
   flex-direction: row;
@@ -329,6 +338,10 @@
   display: inline-flex;
   flex-direction: row;
   width: 20px;
+}
+
+.mobile_menu_bar > .content > ul > li > .menu:hover {
+  color: var(--src-mobile-menu-bar-primary-color-3);
 }
 
 .mobile_menu_bar > .content_visible {
