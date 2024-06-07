@@ -251,7 +251,7 @@
 }
 
 .tab_pane > .tab {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
