@@ -3,6 +3,8 @@ import Button from "./Button";
 import importedStyles from "./Dialog.module.css";
 
 export default function Dialog(props) {
+  const buttonFactoryCancel = props.buttonFactoryCancel || defaultButtonFactoryCancel;
+  const buttonFactoryOK = props.buttonFactoryOK || defaultButtonFactoryOK;
   const children = props.children;
   const isVisible = props.isVisible;
   const onClickCancel = props.onClickCancel;
@@ -12,6 +14,18 @@ export default function Dialog(props) {
   const textCancel = props.textCancel || "Cancel";
   const textOK = props.textOK || "OK";
   const title = props.title || "";
+
+  function defaultButtonFactoryCancel(onClick, children) {
+    return <Button onClick={onClick}>{children}</Button>;
+  }
+
+  function defaultButtonFactoryOK(onClick, children) {
+    return (
+      <Button onClick={onClick} theme="primary">
+        {children}
+      </Button>
+    );
+  }
 
   function doOnClickCancel(e) {
     if (onClickCancel) {
@@ -41,10 +55,8 @@ export default function Dialog(props) {
         </div>
         <div className={styles.content}>{children}</div>
         <div className={styles.buttons}>
-          <Button onClick={doOnClickCancel}>{textCancel}</Button>
-          <Button theme="primary" onClick={doOnClickOK}>
-            {textOK}
-          </Button>
+          {buttonFactoryCancel(doOnClickCancel, textCancel)}
+          {buttonFactoryOK(doOnClickOK, textOK)}
         </div>
       </div>
     </div>
