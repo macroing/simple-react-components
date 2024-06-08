@@ -11,7 +11,7 @@ The `TabPane` component uses the following properties:
 | `tabIndex` | The `tabIndex` property contains the index of the tab to start at.                                          | Yes      |
 | `tabs`     | The `tabs` property contains an array of tabs. The content of the array is the text to render for each tab. | No       |
 
-#### Example
+## Example
 
 The following example demonstrates how you can use the `TabPane` component.
 
