@@ -1,0 +1,63 @@
+.dialog_container {
+  --src-dialog-background-color: #ffffff;
+  --src-dialog-border-color: #dddddd;
+  --src-dialog-color: #333333;
+  --src-dialog-header-background-color: #eeeeee;
+  --src-dialog-header-border-color: #dddddd;
+  --src-dialog-header-color: #333333;
+
+  align-items: center;
+  backdrop-filter: blur(4px) grayscale(100%);
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 9999;
+}
+
+.dialog_container > .dialog {
+  background-color: var(--src-dialog-background-color);
+  border: 1px solid var(--src-dialog-border-color);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-dialog-color);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.dialog_container > .dialog > .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.dialog_container > .dialog > .buttons > button {
+  width: 100%;
+}
+
+.dialog_container > .dialog > .content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dialog_container > .dialog > .header {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-dialog-header-background-color);
+  border-bottom: 1px solid var(--src-dialog-header-border-color);
+  color: var(--src-dialog-header-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
