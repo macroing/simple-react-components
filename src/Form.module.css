@@ -1,0 +1,100 @@
+.form {
+  --src-form-background-color: #f6f6f6;
+  --src-form-border-color: #dddddd;
+  --src-form-color: #333333;
+
+  background-color: var(--src-form-background-color);
+  border: 1px solid var(--src-form-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  padding: 20px;
+  width: 100%;
+}
+
+.form > button {
+  align-self: flex-end;
+}
+
+.form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.form > div > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.form > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.form > div > div > div > input {
+  width: 100%;
+}
+
+.form > div > div > div > label {
+  color: var(--src-form-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form > div > div > input[type="checkbox"] {
+  align-self: center;
+  justify-self: flex-start;
+}
+
+.form > div > div > span {
+  font-size: 12px;
+}
+
+.form > div > input[type="checkbox"] {
+  align-self: flex-start;
+}
+
+.form > div > label {
+  color: var(--src-form-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form > h1 {
+  color: var(--src-form-color);
+  text-align: center;
+}
+
+.form > h2 {
+  color: var(--src-form-color);
+  text-align: center;
+}
+
+.form > h3 {
+  color: var(--src-form-color);
+  text-align: center;
+}
+
+.form > h4 {
+  color: var(--src-form-color);
+  text-align: center;
+}
+
+.form > h5 {
+  color: var(--src-form-color);
+  text-align: center;
+}
+
+.form > h6 {
+  color: var(--src-form-color);
+  text-align: center;
+}
