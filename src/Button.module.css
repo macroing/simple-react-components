@@ -27,14 +27,20 @@
 }
 
 .button.button_primary {
-  --src-button-background-color-hover: #1877f2;
-  --src-button-border-color-hover: #1877f2;
+  --src-button-background-color: #1877f2;
+  --src-button-background-color-hover: #5299f5;
+  --src-button-border-color: #1877f2;
+  --src-button-border-color-hover: #5299f5;
+  --src-button-color: #ffffff;
   --src-button-color-hover: #ffffff;
 }
 
 .button.button_secondary {
-  --src-button-background-color-hover: #f27718;
-  --src-button-border-color-hover: #f27718;
+  --src-button-background-color: #f27718;
+  --src-button-background-color-hover: #f59952;
+  --src-button-border-color: #f27718;
+  --src-button-border-color-hover: #f59952;
+  --src-button-color: #ffffff;
   --src-button-color-hover: #ffffff;
 }
 
