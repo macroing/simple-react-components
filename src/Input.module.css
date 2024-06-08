@@ -1,0 +1,37 @@
+.input {
+  --src-input-background-color: #ffffff;
+  --src-input-background-color-disabled: #f9f9f9;
+  --src-input-border-color: #dddddd;
+  --src-input-border-color-disabled: #dddddd;
+  --src-input-color: #333333;
+  --src-input-color-disabled: #dddddd;
+
+  background-color: var(--src-input-background-color);
+  border: 1px solid var(--src-input-border-color);
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.39) inset, 0 -1px 1px #ffffff, 0 1px 0 #ffffff;
+  color: var(--src-input-color);
+  font-family: inherit;
+  padding: 10px;
+}
+
+.input:focus {
+  outline: 1px solid var(--src-input-border-color);
+}
+
+.input:disabled {
+  background-color: var(--src-input-background-color-disabled);
+  border-color: var(--src-input-border-color-disabled);
+  color: var(--src-input-color-disabled);
+}
+
+.input[type="checkbox"] {
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.input[type="checkbox"]:focus {
+  outline: none;
+}
