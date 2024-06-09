@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../button/Button";
 
 import importedStyles from "./Dialog.module.css";
 
@@ -10,6 +10,7 @@ export default function Dialog(props) {
   const onClickCancel = props.onClickCancel;
   const onClickOK = props.onClickOK;
   const setIsVisible = props.setIsVisible;
+  const style = props.style;
   const styles = props.styles || importedStyles;
   const textCancel = props.textCancel || "Cancel";
   const textOK = props.textOK || "OK";
@@ -49,7 +50,7 @@ export default function Dialog(props) {
 
   return (
     <div className={styles.dialog_container}>
-      <div className={styles.dialog}>
+      <div className={styles.dialog} style={style}>
         <div className={styles.header}>
           <h3>{title}</h3>
         </div>
