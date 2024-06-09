@@ -1,4 +1,4 @@
-import Button from "../button/Button";
+import Button from "./Button";
 
 import importedStyles from "./Dialog.module.css";
 
