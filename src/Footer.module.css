@@ -1,0 +1,84 @@
+.footer {
+  --src-footer-background-color: #f27718;
+  --src-footer-color: #ffffff;
+  --src-footer-color-hover: #ffffff;
+  --src-footer-columns: 1;
+  --src-footer-title-background-color: #f27718;
+  --src-footer-title-border-color: #f27718;
+
+  background-color: var(--src-footer-background-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer > .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer > .content > ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.footer > .content > ul > li {
+  color: var(--src-footer-color);
+  margin: 10px;
+}
+
+.footer > .content > ul > li > a {
+  color: var(--src-footer-color);
+  text-decoration: none;
+}
+
+.footer > .content > ul > li > a:hover {
+  color: var(--src-footer-color-hover);
+  text-decoration: underline;
+}
+
+.footer > .copyright {
+  color: var(--src-footer-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.footer > .title {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-footer-title-background-color);
+  border-bottom: 1px solid var(--src-footer-title-border-color);
+  border-top: 1px solid var(--src-footer-title-border-color);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-footer-color);
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 769px) {
+  .footer > .content {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer > .content > ul {
+    width: calc(100% / var(--src-footer-columns));
+  }
+}
