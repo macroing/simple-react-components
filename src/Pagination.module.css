@@ -1,0 +1,25 @@
+.pagination {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.pagination > ul > li {
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,28 @@
+.link_button {
+  --src-link-button-color: #333333;
+  --src-link-button-color-disabled: #dddddd;
+  --src-link-button-color-hover: #1877f2;
+
+  background-color: transparent;
+  border: none;
+  color: var(--src-link-button-color);
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.link_button:hover {
+  color: var(--src-link-button-color-hover);
+  text-decoration: underline;
+}
+
+.link_button:disabled {
+  background-color: transparent;
+  border: none;
+  color: var(--src-link-button-color-disabled);
+  cursor: default;
+}
+
+.link_button:disabled:hover {
+  text-decoration: none;
+}
