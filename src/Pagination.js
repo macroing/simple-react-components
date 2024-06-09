@@ -1,3 +1,5 @@
+"use client";
+
 import LinkButton from "./LinkButton";
 
 import importedStyles from "./Pagination.module.css";
