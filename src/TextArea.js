@@ -1,3 +1,5 @@
+"use client";
+
 import importedStyles from "./TextArea.module.css";
 
 export default function TextArea(props) {

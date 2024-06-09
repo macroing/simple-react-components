@@ -1,3 +1,5 @@
+"use client";
+
 import importedStyles from "./Select.module.css";
 
 export default function Select(props) {

@@ -1,3 +1,5 @@
+"use client";
+
 import importedStyles from "./LinkButton.module.css";
 
 export default function LinkButton(props) {

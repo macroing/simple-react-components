@@ -1,3 +1,5 @@
+"use client";
+
 import importedStyles from "./Input.module.css";
 
 export default function Input(props) {

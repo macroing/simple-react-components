@@ -1,0 +1,1 @@
+import r from"./Form.module.css.js";import{jsx as e}from"react/jsx-runtime";function m(m){let{children:o,styles:t,...l}=m;return null==t&&(t=r),e("form",{className:t.form,...l,children:o})}export{m as default};
