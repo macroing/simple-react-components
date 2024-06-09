@@ -25,6 +25,7 @@ The components in this library will be described below.
 - [Footer](https://github.com/macroing/simple-react-components/tree/master/documentation/footer) provides a component that defines a footer.
 - [Form](https://github.com/macroing/simple-react-components/tree/master/documentation/form) provides a component that defines a form.
 - [Input](https://github.com/macroing/simple-react-components/tree/master/documentation/input) provides a component that defines an input.
+- [Jumbotron](https://github.com/macroing/simple-react-components/tree/master/documentation/jumbotron) provides a component that defines a jumbotron.
 - [MenuBar](https://github.com/macroing/simple-react-components/tree/master/documentation/menu-bar) provides a component that defines a menu bar.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
 

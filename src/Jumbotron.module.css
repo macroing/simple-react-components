@@ -1,0 +1,61 @@
+.jumbotron {
+  --src-jumbotron-background-color: #dddddd;
+  --src-jumbotron-border-color: #dddddd;
+  --src-jumbotron-color: #333333;
+  --src-jumbotron-hr-border-color-0: #eeeeee;
+  --src-jumbotron-hr-border-color-1: #cccccc;
+
+  background-color: var(--src-jumbotron-background-color);
+  border-bottom: 1px solid var(--src-jumbotron-border-color);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.jumbotron > .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  padding: 60px 20px 60px 20px;
+  width: 100%;
+}
+
+.jumbotron > .content > .children {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.jumbotron > .content > h1 {
+  color: var(--src-jumbotron-color);
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.jumbotron > .content > hr {
+  border-bottom: 2px solid var(--src-jumbotron-hr-border-color-0);
+  border-left: 2px solid var(--src-jumbotron-hr-border-color-1);
+  border-right: 2px solid var(--src-jumbotron-hr-border-color-1);
+  border-top: 2px solid var(--src-jumbotron-hr-border-color-1);
+  width: 100%;
+}
+
+.jumbotron > .content > p {
+  color: var(--src-jumbotron-color);
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .jumbotron > .content {
+    align-items: flex-start;
+  }
+}
