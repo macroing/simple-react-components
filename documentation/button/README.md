@@ -12,6 +12,20 @@ The `Button` component uses the following properties:
 | `theme`    | The `theme` property defines the theme to use. Either `"primary"` or `"secondary"`. | Yes      |
 | `...rest`  | Any other property will be passed to the underlying `button` element.               | Yes      |
 
+## Styling
+
+The `Button` component uses the following CSS variables:
+
+- `--src-button-background-color`
+- `--src-button-background-color-disabled`
+- `--src-button-background-color-hover`
+- `--src-button-border-color`
+- `--src-button-border-color-disabled`
+- `--src-button-border-color-hover`
+- `--src-button-color`
+- `--src-button-color-disabled`
+- `--src-button-color-hover`
+
 ## Example
 
 The following example demonstrates how you can use the `Button` component.

@@ -5,15 +5,15 @@
   --src-tab-pane-button-border-color: #dddddd;
   --src-tab-pane-button-border-color-active: #dddddd;
   --src-tab-pane-button-border-color-hover: #dddddd;
+  --src-tab-pane-button-close-color: red;
   --src-tab-pane-button-color: #333333;
   --src-tab-pane-button-color-active: #1877f2;
   --src-tab-pane-button-color-hover: #1877f2;
 
-  --src-tab-pane-button-close-color: red;
-
   --src-tab-pane-icon-background-color: #333333;
 
   --src-tab-pane-menu-background-color: #f6f6f6;
+
   --src-tab-pane-background-color: #ffffff;
   --src-tab-pane-border-color: #dddddd;
   --src-tab-pane-color: #333333;
