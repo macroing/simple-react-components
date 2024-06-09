@@ -1,14 +1,30 @@
 .footer {
-  --src-footer-background-color: #f27718;
-  --src-footer-color: #ffffff;
-  --src-footer-color-hover: #ffffff;
+  --src-footer-background-color: #eeeeee;
+  --src-footer-color: #333333;
+  --src-footer-color-hover: #333333;
   --src-footer-columns: 1;
-  --src-footer-title-background-color: #f27718;
-  --src-footer-title-border-color: #f27718;
+  --src-footer-title-background-color: #eeeeee;
+  --src-footer-title-border-color: #dddddd;
 
   background-color: var(--src-footer-background-color);
   display: flex;
   flex-direction: column;
+}
+
+.footer.footer_primary {
+  --src-footer-background-color: #1877f2;
+  --src-footer-color: #ffffff;
+  --src-footer-color-hover: #ffffff;
+  --src-footer-title-background-color: #1877f2;
+  --src-footer-title-border-color: #1877f2;
+}
+
+.footer.footer_secondary {
+  --src-footer-background-color: #f27718;
+  --src-footer-color: #ffffff;
+  --src-footer-color-hover: #ffffff;
+  --src-footer-title-background-color: #f27718;
+  --src-footer-title-border-color: #f27718;
 }
 
 .footer > .content {
