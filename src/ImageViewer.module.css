@@ -1,0 +1,74 @@
+.image_viewer_container {
+  --src-image-viewer-background-color: #333333;
+  --src-image-viewer-border-color: #ffffff;
+  --src-image-viewer-close-background-color: red;
+  --src-image-viewer-close-background-color-hover: darkred;
+  --src-image-viewer-close-border-color: red;
+  --src-image-viewer-close-border-color-hover: darkred;
+  --src-image-viewer-close-color: #ffffff;
+  --src-image-viewer-close-color-hover: #ffffff;
+
+  align-items: center;
+  backdrop-filter: blur(4px) grayscale(100%);
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 9999;
+}
+
+.image_viewer_container > .image_viewer {
+  align-items: center;
+  background-color: var(--src-image-viewer-background-color);
+  border: 5px solid var(--src-image-viewer-border-color);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.image_viewer_container > .image_viewer > img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.image_viewer_container > .image_viewer > .close {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-image-viewer-close-background-color);
+  border: 1px solid var(--src-image-viewer-close-border-color);
+  border-radius: 50%;
+  color: var(--src-image-viewer-close-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 25px;
+}
+
+.image_viewer_container > .image_viewer > .close:hover {
+  background-color: var(--src-image-viewer-close-background-color-hover);
+  border-color: var(--src-image-viewer-close-border-color-hover);
+  color: var(--src-image-viewer-close-color-hover);
+}
+
+@media only screen and (min-width: 769px) {
+  .image_viewer_container > .image_viewer {
+    height: 600px;
+    width: 600px;
+  }
+}

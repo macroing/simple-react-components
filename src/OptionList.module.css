@@ -1,0 +1,81 @@
+.option_list {
+  --src-option-list-background-color: #f6f6f6;
+  --src-option-list-border-color: #dddddd;
+  --src-option-list-color: #333333;
+
+  background-color: var(--src-option-list-background-color);
+  border: 1px solid var(--src-option-list-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.option_list > .buttons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.option_list > .buttons > button {
+  max-width: 200px;
+  width: 100%;
+}
+
+.option_list > .options {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  padding: 20px;
+}
+
+.option_list > .options > .option {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.option_list > .options > .option > *:nth-child(1) {
+  align-self: center;
+  justify-self: center;
+}
+
+.option_list > .options > .option > *:nth-child(2) {
+  align-self: center;
+  justify-self: center;
+}
+
+.option_list > .options > .option > .value {
+  font-weight: bold;
+  text-align: right;
+}
+
+.option_list > .title {
+  align-items: center;
+  color: var(--src-option-list-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+  .option_list > .options > .option {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .option_list > .options > .option > *:nth-child(1) {
+    justify-self: flex-start;
+  }
+
+  .option_list > .options > .option > *:nth-child(2) {
+    justify-self: flex-end;
+  }
+}
