@@ -1,0 +1,1 @@
+import e from"./Table.module.css.js";import{jsx as l}from"react/jsx-runtime";function t(t){let{children:r,styles:s,...a}=t;return null==s&&(s=e),l("table",{className:s.table,...a,children:r})}export{t as default};

@@ -33,6 +33,7 @@ The components in this library will be described below.
 - [Pagination](https://github.com/macroing/simple-react-components/tree/master/documentation/pagination) provides a component that defines a pagination.
 - [Select](https://github.com/macroing/simple-react-components/tree/master/documentation/select) provides a component that defines a select.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
+- [Table](https://github.com/macroing/simple-react-components/tree/master/documentation/table) provides a component that defines a table.
 - [TextArea](https://github.com/macroing/simple-react-components/tree/master/documentation/text-area) provides a component that defines a text area.
 
 ## Font Awesome

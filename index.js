@@ -13,6 +13,7 @@ import OptionList from "./src/OptionList";
 import Pagination from "./src/Pagination";
 import Select from "./src/Select";
 import TabPane from "./src/TabPane";
+import Table from "./src/Table";
 import TextArea from "./src/TextArea";
 
-export { Button, DesktopMenuBar, Dialog, Footer, Form, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, TextArea };
+export { Button, DesktopMenuBar, Dialog, Footer, Form, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, Table, TextArea };

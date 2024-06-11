@@ -1,0 +1,105 @@
+.table {
+  --src-table-background-color: #f6f6f6;
+  --src-table-background-color-even: #f6f6f6;
+  --src-table-background-color-odd: #ffffff;
+  --src-table-border-color: #dddddd;
+  --src-table-color: #333333;
+
+  border: 1px solid var(--src-table-border-color);
+  border-collapse: collapse;
+  border-spacing: 0px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table > tbody {
+  border: 1px solid var(--src-table-border-color);
+}
+
+.table > tbody > tr {
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  border-bottom: 1px solid var(--src-table-border-color);
+  border-top: 1px solid var(--src-table-border-color);
+}
+
+.table > tbody > tr:first-child {
+  border-top: none;
+}
+
+.table > tbody > tr:last-child {
+  border-bottom: none;
+}
+
+.table > tbody > tr:nth-child(even) {
+  background-color: var(--src-table-background-color-even);
+}
+
+.table > tbody > tr:nth-child(odd) {
+  background-color: var(--src-table-background-color-odd);
+}
+
+.table > tbody > tr > td {
+  border-left: 1px solid var(--src-table-border-color);
+  border-right: 1px solid var(--src-table-border-color);
+  color: var(--src-table-color);
+  overflow: hidden;
+  padding: 5px 10px 5px 10px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table > tbody > tr > td:first-child {
+  border-left: none;
+}
+
+.table > tbody > tr > td:last-child {
+  border-right: none;
+}
+
+.table > tbody > tr > th {
+  border-left: 1px solid var(--src-table-border-color);
+  border-right: 1px solid var(--src-table-border-color);
+  overflow: hidden;
+  padding: 5px 10px 5px 10px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table > tbody > tr > th:first-child {
+  border-left: none;
+}
+
+.table > tbody > tr > th:last-child {
+  border-right: none;
+}
+
+.table > thead {
+  background-color: var(--src-table-background-color);
+  border: 1px solid var(--src-table-border-color);
+}
+
+.table > thead > tr {
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.table > thead > tr > th {
+  border-left: 1px solid var(--src-table-border-color);
+  border-right: 1px solid var(--src-table-border-color);
+  color: var(--src-table-color);
+  overflow: hidden;
+  padding: 5px 10px 5px 10px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table > thead > tr > th:first-child {
+  border-left: none;
+}
+
+.table > thead > tr > th:last-child {
+  border-right: none;
+}
