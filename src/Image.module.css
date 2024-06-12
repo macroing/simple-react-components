@@ -1,0 +1,15 @@
+.image {
+  --src-image-border-color: #ffffff;
+
+  border: 5px solid var(--src-image-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+}
