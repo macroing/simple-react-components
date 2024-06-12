@@ -1,3 +1,4 @@
+import Background from "./src/Background";
 import Button from "./src/Button";
 import Card from "./src/Card";
 import Carousel from "./src/Carousel";
@@ -19,4 +20,4 @@ import TabPane from "./src/TabPane";
 import Table from "./src/Table";
 import TextArea from "./src/TextArea";
 
-export { Button, Card, Carousel, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, Table, TextArea };
+export { Background, Button, Card, Carousel, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, Table, TextArea };

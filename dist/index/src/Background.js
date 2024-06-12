@@ -1,0 +1,1 @@
+import r from"./Background.module.css.js";import{jsx as c}from"react/jsx-runtime";function e(e){const s=e.children,n=e.styles||r,l=e.url;return c("div",{className:n.background,style:{"--src-background-url":`url("${l}")`},children:c("div",{className:n.container,children:s})})}export{e as default};
