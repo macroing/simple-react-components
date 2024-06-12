@@ -1,0 +1,2 @@
+"use client";
+import{motion as r}from"framer-motion";import{useState as e}from"react";import s from"./ImageViewer.js";import t from"./Image.module.css.js";import{jsxs as i,Fragment as m,jsx as o}from"react/jsx-runtime";function l(l){let{alt:a,src:n,styles:c,...f}=l;const[p,u]=e(!1);return null==c&&(c=t),i(m,{children:[o(r.img,{alt:a,className:c.image,onClick:r=>u(!0),src:n,transition:{type:"spring",stiffness:500},whileHover:{scale:1.03},...f}),o(s,{alt:a,isVisible:p,setIsVisible:u,src:n})]})}export{l as default};
