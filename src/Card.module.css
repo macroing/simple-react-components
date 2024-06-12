@@ -1,0 +1,72 @@
+.card {
+  --src-card-background-color: #f6f6f6;
+  --src-card-background-color-hover: #1877f2;
+  --src-card-border-color: #dddddd;
+  --src-card-border-color-hover: #1877f2;
+  --src-card-color: #333333;
+  --src-card-color-hover: #ffffff;
+
+  background-color: var(--src-card-background-color);
+  border: 1px solid var(--src-card-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 300px;
+}
+
+.card > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.card > .content > .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.card > .content > .buttons > button {
+  width: 100%;
+}
+
+.card > .content > .paragraph {
+  color: var(--src-card-color);
+  display: -webkit-box;
+  overflow: hidden;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-word;
+  text-overflow: ellipsis;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
+.card > .content > .title {
+  color: var(--src-card-color);
+}
+
+.card > .image {
+  height: auto;
+  width: 100%;
+}
+
+.card.card_clickable:hover {
+  background-color: var(--src-card-background-color-hover);
+  border-color: var(--src-card-border-color-hover);
+  cursor: pointer;
+}
+
+.card.card_clickable:hover > .content > .paragraph {
+  color: var(--src-card-color-hover);
+}
+
+.card.card_clickable:hover > .content > .title {
+  color: var(--src-card-color-hover);
+}
