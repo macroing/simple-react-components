@@ -20,6 +20,7 @@ git clone https://github.com/macroing/simple-react-components.git
 
 The components in this library will be described below.
 
+- [Accordion](https://github.com/macroing/simple-react-components/tree/master/documentation/accordion) provides a component that defines an accordion.
 - [Background](https://github.com/macroing/simple-react-components/tree/master/documentation/background) provides a component that defines a background.
 - [Button](https://github.com/macroing/simple-react-components/tree/master/documentation/button) provides a component that defines a button.
 - [Card](https://github.com/macroing/simple-react-components/tree/master/documentation/card) provides a component that defines a card.

@@ -1,0 +1,61 @@
+.accordion {
+  --src-accordion-content-background-color: #f6f6f6;
+  --src-accordion-content-border-color: #dddddd;
+  --src-accordion-title-background-color: #eeeeee;
+  --src-accordion-title-background-color-hover: #1877f2;
+  --src-accordion-title-border-color: #dddddd;
+  --src-accordion-title-border-color-hover: #1877f2;
+  --src-accordion-title-color: #333333;
+  --src-accordion-title-color-hover: #ffffff;
+
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion > .item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion > .item > .content {
+  align-items: flex-start;
+  background-color: var(--src-accordion-content-background-color);
+  border: 1px solid var(--src-accordion-content-border-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordion > .item > .content > .children {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 100%;
+}
+
+.accordion > .item > .title {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-accordion-title-background-color);
+  border: 1px solid var(--src-accordion-title-border-color);
+  color: var(--src-accordion-title-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.accordion > .item > .title:hover {
+  background-color: var(--src-accordion-title-background-color-hover);
+  border-color: var(--src-accordion-title-border-color-hover);
+  color: var(--src-accordion-title-color-hover);
+  cursor: pointer;
+}
