@@ -40,6 +40,7 @@ The components in this library will be described below.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
 - [Table](https://github.com/macroing/simple-react-components/tree/master/documentation/table) provides a component that defines a table.
 - [TextArea](https://github.com/macroing/simple-react-components/tree/master/documentation/text-area) provides a component that defines a text area.
+- [TooltipContainer](https://github.com/macroing/simple-react-components/tree/master/documentation/tooltip-container) provides a component that defines a tooltip container.
 
 ## Font Awesome
 

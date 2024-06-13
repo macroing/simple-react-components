@@ -20,5 +20,6 @@ import Select from "./src/Select";
 import TabPane from "./src/TabPane";
 import Table from "./src/Table";
 import TextArea from "./src/TextArea";
+import TooltipContainer from "./src/TooltipContainer";
 
-export { Accordion, Background, Button, Card, Carousel, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, Table, TextArea };
+export { Accordion, Background, Button, Card, Carousel, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, Table, TextArea, TooltipContainer };
