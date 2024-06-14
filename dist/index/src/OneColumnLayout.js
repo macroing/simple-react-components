@@ -1,0 +1,1 @@
+import e from"./OneColumnLayout.module.css.js";import{jsx as l}from"react/jsx-runtime";function o(o){const s=o.column1,t=o.style,n=o.styleColumn1,m=o.styles||e;return l("div",{className:m.one_column_layout,style:t,children:l("div",{className:m.column_1,style:n,children:s})})}export{o as default};

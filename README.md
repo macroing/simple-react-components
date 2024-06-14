@@ -34,13 +34,16 @@ The components in this library will be described below.
 - [Jumbotron](https://github.com/macroing/simple-react-components/tree/master/documentation/jumbotron) provides a component that defines a jumbotron.
 - [LinkButton](https://github.com/macroing/simple-react-components/tree/master/documentation/link-button) provides a component that defines a link button.
 - [MenuBar](https://github.com/macroing/simple-react-components/tree/master/documentation/menu-bar) provides a component that defines a menu bar.
+- [OneColumnLayout](https://github.com/macroing/simple-react-components/tree/master/documentation/one-column-layout) provides a component that defines a layout with one column.
 - [OptionList](https://github.com/macroing/simple-react-components/tree/master/documentation/option-list) provides a component that defines an option list.
 - [Pagination](https://github.com/macroing/simple-react-components/tree/master/documentation/pagination) provides a component that defines a pagination.
 - [Select](https://github.com/macroing/simple-react-components/tree/master/documentation/select) provides a component that defines a select.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
 - [Table](https://github.com/macroing/simple-react-components/tree/master/documentation/table) provides a component that defines a table.
 - [TextArea](https://github.com/macroing/simple-react-components/tree/master/documentation/text-area) provides a component that defines a text area.
+- [ThreeColumnLayout](https://github.com/macroing/simple-react-components/tree/master/documentation/three-column-layout) provides a component that defines a layout with three columns.
 - [TooltipContainer](https://github.com/macroing/simple-react-components/tree/master/documentation/tooltip-container) provides a component that defines a tooltip container.
+- [TwoColumnLayout](https://github.com/macroing/simple-react-components/tree/master/documentation/two-column-layout) provides a component that defines a layout with two columns.
 
 ## Font Awesome
 

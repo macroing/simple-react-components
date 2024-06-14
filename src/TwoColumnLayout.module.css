@@ -1,0 +1,30 @@
+.two_column_layout {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.two_column_layout > .column_1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 25%;
+}
+
+.two_column_layout > .column_2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 75%;
+}

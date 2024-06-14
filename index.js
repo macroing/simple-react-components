@@ -14,12 +14,15 @@ import Jumbotron from "./src/Jumbotron";
 import LinkButton from "./src/LinkButton";
 import MenuBar from "./src/MenuBar";
 import MobileMenuBar from "./src/MobileMenuBar";
+import OneColumnLayout from "./src/OneColumnLayout";
 import OptionList from "./src/OptionList";
 import Pagination from "./src/Pagination";
 import Select from "./src/Select";
 import TabPane from "./src/TabPane";
 import Table from "./src/Table";
 import TextArea from "./src/TextArea";
+import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
+import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Button, Card, Carousel, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OptionList, Pagination, Select, TabPane, Table, TextArea, TooltipContainer };
+export { Accordion, Background, Button, Card, Carousel, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Select, TabPane, Table, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
