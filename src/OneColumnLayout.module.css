@@ -1,11 +1,10 @@
 .one_column_layout {
   align-items: flex-start;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   margin: 0px auto 0px auto;
   max-width: 1200px;
-  min-height: 100vh;
   width: 100%;
 }
 
@@ -17,4 +16,14 @@
   justify-content: flex-start;
   padding: 20px;
   width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+  .one_column_layout {
+    flex-direction: row;
+  }
+
+  .one_column_layout > .column_1 {
+    width: 100%;
+  }
 }
