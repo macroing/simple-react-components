@@ -1,0 +1,1 @@
+import e from"./Panel.module.css.js";import{jsx as l}from"react/jsx-runtime";function r(r){let{children:t,styles:n,...s}=r;return null==n&&(n=e),l("div",{className:n.panel,...s,children:t})}export{r as default};

@@ -38,6 +38,7 @@ The components in this library will be described below.
 - [OneColumnLayout](https://github.com/macroing/simple-react-components/tree/master/documentation/one-column-layout) provides a component that defines a layout with one column.
 - [OptionList](https://github.com/macroing/simple-react-components/tree/master/documentation/option-list) provides a component that defines an option list.
 - [Pagination](https://github.com/macroing/simple-react-components/tree/master/documentation/pagination) provides a component that defines a pagination.
+- [Panel](https://github.com/macroing/simple-react-components/tree/master/documentation/panel) provides a component that defines a panel.
 - [Select](https://github.com/macroing/simple-react-components/tree/master/documentation/select) provides a component that defines a select.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
 - [Table](https://github.com/macroing/simple-react-components/tree/master/documentation/table) provides a component that defines a table.

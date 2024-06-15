@@ -18,6 +18,7 @@ import MobileMenuBar from "./src/MobileMenuBar";
 import OneColumnLayout from "./src/OneColumnLayout";
 import OptionList from "./src/OptionList";
 import Pagination from "./src/Pagination";
+import Panel from "./src/Panel";
 import Select from "./src/Select";
 import TabPane from "./src/TabPane";
 import Table from "./src/Table";
@@ -26,4 +27,4 @@ import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
 import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Select, TabPane, Table, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
+export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, TabPane, Table, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };

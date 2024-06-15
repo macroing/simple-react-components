@@ -1,0 +1,18 @@
+.panel {
+  --src-panel-background-color: #f6f6f6;
+  --src-panel-border-color: #dddddd;
+  --src-panel-color: #333333;
+
+  align-items: flex-start;
+  background-color: var(--src-panel-background-color);
+  border: 1px solid var(--src-panel-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-panel-color);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+}
