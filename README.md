@@ -25,6 +25,7 @@ The components in this library will be described below.
 - [Button](https://github.com/macroing/simple-react-components/tree/master/documentation/button) provides a component that defines a button.
 - [Card](https://github.com/macroing/simple-react-components/tree/master/documentation/card) provides a component that defines a card.
 - [Carousel](https://github.com/macroing/simple-react-components/tree/master/documentation/carousel) provides a component that defines a carousel.
+- [Chip](https://github.com/macroing/simple-react-components/tree/master/documentation/chip) provides a component that defines a chip.
 - [Dialog](https://github.com/macroing/simple-react-components/tree/master/documentation/dialog) provides a component that defines a dialog.
 - [Footer](https://github.com/macroing/simple-react-components/tree/master/documentation/footer) provides a component that defines a footer.
 - [Form](https://github.com/macroing/simple-react-components/tree/master/documentation/form) provides a component that defines a form.

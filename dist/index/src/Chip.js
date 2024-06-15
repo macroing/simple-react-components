@@ -1,0 +1,2 @@
+"use client";
+import{motion as i}from"framer-motion";import r from"./Chip.module.css.js";import{jsx as e}from"react/jsx-runtime";function o(o){const c=o.children,s=o.onClick,t=o.styles||r,n=o.theme;return e(i.div,{className:t.chip+(s?" "+t.chip_clickable:"")+("primary"===n?" "+t.chip_primary:"")+("secondary"===n?" "+t.chip_secondary:""),onClick:s,transition:s?{type:"spring",stiffness:500}:void 0,whileHover:s?{scale:1.03}:void 0,children:c})}export{o as default};
