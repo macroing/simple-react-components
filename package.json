@@ -1,6 +1,6 @@
 {
   "name": "@macroing/simple-react-components",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "main": "dist/index/index.js",
   "scripts": {
     "build": "rollup -c",
