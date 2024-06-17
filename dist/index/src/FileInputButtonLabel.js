@@ -1,0 +1,2 @@
+"use client";
+import{motion as e}from"framer-motion";import t from"./FileInputButtonLabel.module.css.js";import{jsxs as n,jsx as l}from"react/jsx-runtime";function r(r){const o=r.accept,a=r.children,i=r.onChange,m=r.style,p=r.styles||t,s=r.theme;return n(e.label,{className:p.file_input_button_label+("primary"===s?" "+p.file_input_button_label_primary:"")+("secondary"===s?" "+p.file_input_button_label_secondary:""),style:m,children:[a,l("input",{accept:o,onChange:i,type:"file"})]})}export{r as default};

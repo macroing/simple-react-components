@@ -1,0 +1,65 @@
+.file_input_button_label {
+  --src-file-input-button-label-background-color: #eeeeee;
+  --src-file-input-button-label-background-color-disabled: #eeeeee;
+  --src-file-input-button-label-background-color-hover: #ffffff;
+  --src-file-input-button-label-border-color: #dddddd;
+  --src-file-input-button-label-border-color-disabled: #dddddd;
+  --src-file-input-button-label-border-color-hover: #dddddd;
+  --src-file-input-button-label-color: #333333;
+  --src-file-input-button-label-color-disabled: #dddddd;
+  --src-file-input-button-label-color-hover: #1877f2;
+
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-file-input-button-label-background-color);
+  border: 1px solid var(--src-file-input-button-label-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-file-input-button-label-color);
+  display: flex;
+  flex-direction: row;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px;
+}
+
+.file_input_button_label.file_input_button_label_primary {
+  --src-file-input-button-label-background-color: #1877f2;
+  --src-file-input-button-label-background-color-hover: #5299f5;
+  --src-file-input-button-label-border-color: #1877f2;
+  --src-file-input-button-label-border-color-hover: #5299f5;
+  --src-file-input-button-label-color: #ffffff;
+  --src-file-input-button-label-color-hover: #ffffff;
+}
+
+.file_input_button_label.file_input_button_label_secondary {
+  --src-file-input-button-label-background-color: #f27718;
+  --src-file-input-button-label-background-color-hover: #f59952;
+  --src-file-input-button-label-border-color: #f27718;
+  --src-file-input-button-label-border-color-hover: #f59952;
+  --src-file-input-button-label-color: #ffffff;
+  --src-file-input-button-label-color-hover: #ffffff;
+}
+
+.file_input_button_label:hover {
+  background-color: var(--src-file-input-button-label-background-color-hover);
+  border-color: var(--src-file-input-button-label-border-color-hover);
+  color: var(--src-file-input-button-label-color-hover);
+  cursor: pointer;
+}
+
+.file_input_button_label:disabled {
+  background-color: var(--src-file-input-button-label-background-color-disabled);
+  border-color: var(--src-file-input-button-label-border-color-disabled);
+  color: var(--src-file-input-button-label-color-disabled);
+  cursor: default;
+}
+
+.file_input_button_label > input {
+  display: none;
+  opacity: 0;
+  width: 0px;
+}
