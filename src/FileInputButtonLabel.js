@@ -13,7 +13,7 @@ export default function FileInputButtonLabel(props) {
   const theme = props.theme;
 
   return (
-    <motion.label className={styles.file_input_button_label + (theme === "primary" ? " " + styles.file_input_button_label_primary : "") + (theme === "secondary" ? " " + styles.file_input_button_label_secondary : "")} style={style}>
+    <motion.label className={styles.file_input_button_label + (theme === "primary" ? " " + styles.file_input_button_label_primary : "") + (theme === "secondary" ? " " + styles.file_input_button_label_secondary : "")} style={style} transition={{ type: "spring", stiffness: 500 }} whileHover={{ scale: 1.03 }}>
       {children}
       <input accept={accept} onChange={onChange} type="file" />
     </motion.label>
