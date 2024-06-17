@@ -30,6 +30,7 @@ The components in this library will be described below.
 - [FileInputButtonLabel](https://github.com/macroing/simple-react-components/tree/master/documentation/file-input-button-label) provides a component that defines a file input button label.
 - [Footer](https://github.com/macroing/simple-react-components/tree/master/documentation/footer) provides a component that defines a footer.
 - [Form](https://github.com/macroing/simple-react-components/tree/master/documentation/form) provides a component that defines a form.
+- [Header](https://github.com/macroing/simple-react-components/tree/master/documentation/header) provides a component that defines a header.
 - [Image](https://github.com/macroing/simple-react-components/tree/master/documentation/image) provides a component that defines an image.
 - [ImageViewer](https://github.com/macroing/simple-react-components/tree/master/documentation/image-viewer) provides a component that defines an image viewer.
 - [Input](https://github.com/macroing/simple-react-components/tree/master/documentation/input) provides a component that defines an input.

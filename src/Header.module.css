@@ -1,0 +1,137 @@
+.header {
+  --src-header-background-color: #f6f6f6;
+  --src-header-border-color: #dddddd;
+  --src-header-button-background-color: #eeeeee;
+  --src-header-button-background-color-hover: #ffffff;
+  --src-header-button-border-color: #dddddd;
+  --src-header-button-border-color-hover: #dddddd;
+  --src-header-button-color: #333333;
+  --src-header-button-color-hover: #1877f2;
+  --src-header-image-border-color: #ffffff;
+
+  background-color: var(--src-header-background-color);
+  border-bottom: 1px solid var(--src-header-border-color);
+  border-left: 1px solid var(--src-header-border-color);
+  border-right: 1px solid var(--src-header-border-color);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header > .background_image {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+
+.header > .background_image > button {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-header-button-background-color);
+  border: 1px solid var(--src-header-button-border-color);
+  border-radius: 50%;
+  bottom: 20px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-header-button-color);
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: center;
+  right: 20px;
+  position: absolute;
+  width: 48px;
+}
+
+.header > .background_image > button:hover {
+  background-color: var(--src-header-button-background-color-hover);
+  border-color: var(--src-header-button-border-color-hover);
+  color: var(--src-header-button-color-hover);
+  cursor: pointer;
+}
+
+.header > .background_image > img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.header > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.header > .content > .children {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header > .content > .image {
+  display: flex;
+  flex-direction: row;
+  height: 192px;
+  margin: 0px auto 0px auto;
+  position: relative;
+  width: 192px;
+}
+
+.header > .content > .image > button {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-header-button-background-color);
+  border: 1px solid var(--src-header-button-border-color);
+  border-radius: 50%;
+  bottom: 48px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-header-button-color);
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: center;
+  left: 144px;
+  position: absolute;
+  width: 48px;
+}
+
+.header > .content > .image > button:hover {
+  background-color: var(--src-header-button-background-color-hover);
+  border-color: var(--src-header-button-border-color-hover);
+  color: var(--src-header-button-color-hover);
+  cursor: pointer;
+}
+
+.header > .content > .image > img {
+  border: 5px solid var(--src-header-image-border-color);
+  border-radius: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  height: 192px;
+  object-fit: cover;
+  position: absolute;
+  top: -32px;
+  width: 192px;
+}
+
+.header > .content > .image > img:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+@media only screen and (min-width: 769px) {
+  .header > .content {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .header > .content > .image {
+    margin: 0px 0px 0px 50px;
+  }
+}

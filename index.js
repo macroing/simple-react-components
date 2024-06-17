@@ -9,6 +9,7 @@ import Dialog from "./src/Dialog";
 import FileInputButtonLabel from "./src/FileInputButtonLabel";
 import Footer from "./src/Footer";
 import Form from "./src/Form";
+import Header from "./src/Header";
 import Image from "./src/Image";
 import ImageViewer from "./src/ImageViewer";
 import Input from "./src/Input";
@@ -28,4 +29,4 @@ import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
 import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, TabPane, Table, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
+export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, TabPane, Table, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
