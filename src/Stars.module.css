@@ -1,0 +1,36 @@
+.stars {
+  --src-stars-star-color: #dddddd;
+  --src-stars-star-color-disabled: #dddddd;
+  --src-stars-star-color-hover: #f27718;
+  --src-stars-star-color-selected: #f27718;
+  --src-stars-star-color-selected-hover: #f27718;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.stars > .star {
+  color: var(--src-stars-star-color);
+  cursor: pointer;
+}
+
+.stars > .star:hover {
+  color: var(--src-stars-star-color-hover);
+}
+
+.stars > .star.star_selected {
+  color: var(--src-stars-star-color-selected);
+}
+
+.stars.stars_disabled > .star {
+  cursor: default;
+}
+
+.stars.stars_disabled > .star:hover {
+  color: var(--src-stars-star-color-disabled);
+}
+
+.stars > .star.star_selected:hover {
+  color: var(--src-stars-star-color-selected-hover);
+}
