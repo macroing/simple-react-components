@@ -25,9 +25,10 @@ import Select from "./src/Select";
 import Stars from "./src/Stars";
 import TabPane from "./src/TabPane";
 import Table from "./src/Table";
+import TaskBar from "./src/TaskBar";
 import TextArea from "./src/TextArea";
 import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
 import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, Stars, TabPane, Table, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
+export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };

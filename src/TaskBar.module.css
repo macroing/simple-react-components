@@ -1,0 +1,65 @@
+.task_bar {
+  --src-task-bar-background-color: #f6f6f6;
+  --src-task-bar-border-color: #dddddd;
+  --src-task-bar-item-background-color: #f6f6f6;
+  --src-task-bar-item-background-color-hover: #1877f2;
+  --src-task-bar-item-color: #333333;
+  --src-task-bar-item-color-hover: #ffffff;
+
+  background-color: var(--src-task-bar-background-color);
+  border: 1px solid var(--src-task-bar-border-color);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: auto;
+}
+
+.task_bar.task_bar_menu_bar {
+  height: calc(100vh - 65px);
+  top: 65px;
+}
+
+.task_bar > .item {
+  background-color: var(--src-task-bar-item-background-color);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  font-family: inherit;
+  gap: 20px;
+  padding: 10px 20px 10px 20px;
+  width: 100%;
+}
+
+.task_bar > .item > .icon {
+  align-items: center;
+  color: var(--src-task-bar-item-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20px;
+}
+
+.task_bar > .item > .text {
+  color: var(--src-task-bar-item-color);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.task_bar > .item:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-task-bar-item-background-color-hover);
+  cursor: pointer;
+}
+
+.task_bar > .item:hover > .icon {
+  color: var(--src-task-bar-item-color-hover);
+}
+
+.task_bar > .item:hover > .text {
+  color: var(--src-task-bar-item-color-hover);
+}

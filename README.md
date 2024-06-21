@@ -45,6 +45,7 @@ The components in this library will be described below.
 - [Stars](https://github.com/macroing/simple-react-components/tree/master/documentation/stars) provides a component that defines stars.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
 - [Table](https://github.com/macroing/simple-react-components/tree/master/documentation/table) provides a component that defines a table.
+- [TaskBar](https://github.com/macroing/simple-react-components/tree/master/documentation/task-bar) provides a component that defines a task bar.
 - [TextArea](https://github.com/macroing/simple-react-components/tree/master/documentation/text-area) provides a component that defines a text area.
 - [ThreeColumnLayout](https://github.com/macroing/simple-react-components/tree/master/documentation/three-column-layout) provides a component that defines a layout with three columns.
 - [TooltipContainer](https://github.com/macroing/simple-react-components/tree/master/documentation/tooltip-container) provides a component that defines a tooltip container.
