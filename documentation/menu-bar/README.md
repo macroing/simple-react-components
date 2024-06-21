@@ -40,13 +40,15 @@ The `items` property described in the table above consists of an array with obje
 
 The `items` property described in the table above consists of an array with objects. Each object contains the following properties:
 
-| Name      | Description                                                                                                          | Optional |
-| --------- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| `badge`   | The `badge` property contains the badge to render for the current menu item.                                         | Yes      |
-| `href`    | The `href` property contains the URL for the current menu item link. Use this instead of `onClick` to render a link. | Yes      |
-| `icon`    | The `icon` property contains the icon to be rendered for the current menu item. For example Font Awesome icons.      | Yes      |
-| `onClick` | The `onClick` property contains an on-click function. Use this instead of `href` to render a button.                 | Yes      |
-| `text`    | The `text` property contains the text to be rendered for the current menu item.                                      | No       |
+| Name       | Description                                                                                                          | Optional |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| `badge`    | The `badge` property contains the badge to render for the current menu item.                                         | Yes      |
+| `heading`  | The `heading` property defines whether the current menu item should be a heading or not.                             | Yes      |
+| `href`     | The `href` property contains the URL for the current menu item link. Use this instead of `onClick` to render a link. | Yes      |
+| `icon`     | The `icon` property contains the icon to be rendered for the current menu item. For example Font Awesome icons.      | Yes      |
+| `indented` | The `indented` property defines whether the current menu item should be indented or not.                             | Yes      |
+| `onClick`  | The `onClick` property contains an on-click function. Use this instead of `href` to render a button.                 | Yes      |
+| `text`     | The `text` property contains the text to be rendered for the current menu item.                                      | No       |
 
 ## The `linkFactory` property
 

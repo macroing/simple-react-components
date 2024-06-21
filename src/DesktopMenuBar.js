@@ -68,7 +68,7 @@ export default function DesktopMenuBar(props) {
                     <div className={styles.sub_menu} key={"a-" + aIndex}>
                       <ul className={styles.ul}>
                         {a.items.map((b, bIndex) => (
-                          <li className={styles.li} key={"b-" + bIndex}>
+                          <li className={styles.li + (b.heading ? " " + styles.li_heading : "") + (b.indented ? " " + styles.li_indented : "")} key={"b-" + bIndex}>
                             {b.href ? (
                               linkFactory(
                                 styles.a,
