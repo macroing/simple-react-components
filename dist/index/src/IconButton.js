@@ -1,0 +1,2 @@
+"use client";
+import{motion as t}from"framer-motion";import o from"./IconButton.module.css.js";import{jsx as n}from"react/jsx-runtime";function s(s){let{className:e,isLarge:r,onClick:i,styles:a,...l}=s;return null==a&&(a=o),n(t.button,{className:a.icon_button+(r?" "+a.icon_button_large:""),onClick:i,transition:{type:"spring",stiffness:500},whileHover:{scale:1.2},...l,children:n("span",{className:e})})}export{s as default};

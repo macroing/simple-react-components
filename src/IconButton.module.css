@@ -1,0 +1,32 @@
+.icon_button {
+  --src-icon-button-background-color: red;
+  --src-icon-button-background-color-hover: darkred;
+  --src-icon-button-border-color: #ffffff;
+  --src-icon-button-border-color-hover: #ffffff;
+  --src-icon-button-color: #ffffff;
+  --src-icon-button-color-hover: #ffffff;
+
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-icon-button-background-color);
+  border: 2px solid var(--src-icon-button-border-color);
+  border-radius: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-icon-button-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-size: 8px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.icon_button.icon_button_large {
+  font-size: 24px;
+}
+
+.icon_button:hover {
+  background-color: var(--src-icon-button-background-color-hover);
+  border-color: var(--src-icon-button-border-color-hover);
+  color: var(--src-icon-button-color-hover);
+}

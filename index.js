@@ -11,6 +11,7 @@ import FileInputButtonLabel from "./src/FileInputButtonLabel";
 import Footer from "./src/Footer";
 import Form from "./src/Form";
 import Header from "./src/Header";
+import IconButton from "./src/IconButton";
 import Image from "./src/Image";
 import ImageViewer from "./src/ImageViewer";
 import Input from "./src/Input";
@@ -32,4 +33,4 @@ import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
 import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Button, ButtonLink, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
+export { Accordion, Background, Button, ButtonLink, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, IconButton, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
