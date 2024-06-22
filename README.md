@@ -38,6 +38,7 @@ The components in this library will be described below.
 - [Input](https://github.com/macroing/simple-react-components/tree/master/documentation/input) provides a component that defines an input.
 - [Jumbotron](https://github.com/macroing/simple-react-components/tree/master/documentation/jumbotron) provides a component that defines a jumbotron.
 - [LinkButton](https://github.com/macroing/simple-react-components/tree/master/documentation/link-button) provides a component that defines a link button.
+- [Menu](https://github.com/macroing/simple-react-components/tree/master/documentation/menu) provides a component that defines a menu.
 - [MenuBar](https://github.com/macroing/simple-react-components/tree/master/documentation/menu-bar) provides a component that defines a menu bar.
 - [OneColumnLayout](https://github.com/macroing/simple-react-components/tree/master/documentation/one-column-layout) provides a component that defines a layout with one column.
 - [OptionList](https://github.com/macroing/simple-react-components/tree/master/documentation/option-list) provides a component that defines an option list.
