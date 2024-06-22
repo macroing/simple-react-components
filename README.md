@@ -43,6 +43,7 @@ The components in this library will be described below.
 - [OptionList](https://github.com/macroing/simple-react-components/tree/master/documentation/option-list) provides a component that defines an option list.
 - [Pagination](https://github.com/macroing/simple-react-components/tree/master/documentation/pagination) provides a component that defines a pagination.
 - [Panel](https://github.com/macroing/simple-react-components/tree/master/documentation/panel) provides a component that defines a panel.
+- [PopupMenu](https://github.com/macroing/simple-react-components/tree/master/documentation/popup-menu) provides a component that defines a popup menu.
 - [Select](https://github.com/macroing/simple-react-components/tree/master/documentation/select) provides a component that defines a select.
 - [Stars](https://github.com/macroing/simple-react-components/tree/master/documentation/stars) provides a component that defines stars.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
