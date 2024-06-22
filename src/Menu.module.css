@@ -7,11 +7,12 @@
   --src-menu-primary-color-1: #dddddd;
   --src-menu-primary-color-2: #333333;
   --src-menu-primary-color-3: #eeeeee;
+  --src-menu-primary-color-4: #f6f6f6;
 
   --src-menu-secondary-color: #1877f2;
 
   align-items: flex-start;
-  background-color: var(--src-menu-primary-color-0);
+  background-color: var(--src-menu-primary-color-4);
   border: 1px solid var(--src-menu-primary-color-1);
   border-radius: 5px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
