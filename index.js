@@ -1,6 +1,7 @@
 import Accordion from "./src/Accordion";
 import Background from "./src/Background";
 import Button from "./src/Button";
+import ButtonLink from "./src/ButtonLink";
 import Card from "./src/Card";
 import Carousel from "./src/Carousel";
 import Chip from "./src/Chip";
@@ -31,4 +32,4 @@ import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
 import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Button, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
+export { Accordion, Background, Button, ButtonLink, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, Image, ImageViewer, Input, Jumbotron, LinkButton, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };

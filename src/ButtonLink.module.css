@@ -1,0 +1,59 @@
+.button_link {
+  --src-button-link-background-color: #eeeeee;
+  --src-button-link-background-color-disabled: #eeeeee;
+  --src-button-link-background-color-hover: #ffffff;
+  --src-button-link-border-color: #dddddd;
+  --src-button-link-border-color-disabled: #dddddd;
+  --src-button-link-border-color-hover: #dddddd;
+  --src-button-link-color: #333333;
+  --src-button-link-color-disabled: #dddddd;
+  --src-button-link-color-hover: #1877f2;
+
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-button-link-background-color);
+  border: 1px solid var(--src-button-link-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-button-link-color);
+  display: flex;
+  flex-direction: row;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px;
+}
+
+.button_link.button_link_primary {
+  --src-button-link-background-color: #1877f2;
+  --src-button-link-background-color-hover: #5299f5;
+  --src-button-link-border-color: #1877f2;
+  --src-button-link-border-color-hover: #5299f5;
+  --src-button-link-color: #ffffff;
+  --src-button-link-color-hover: #ffffff;
+}
+
+.button_link.button_link_secondary {
+  --src-button-link-background-color: #f27718;
+  --src-button-link-background-color-hover: #f59952;
+  --src-button-link-border-color: #f27718;
+  --src-button-link-border-color-hover: #f59952;
+  --src-button-link-color: #ffffff;
+  --src-button-link-color-hover: #ffffff;
+}
+
+.button_link:hover {
+  background-color: var(--src-button-link-background-color-hover);
+  border-color: var(--src-button-link-border-color-hover);
+  color: var(--src-button-link-color-hover);
+  cursor: pointer;
+}
+
+.button_link:disabled {
+  background-color: var(--src-button-link-background-color-disabled);
+  border-color: var(--src-button-link-border-color-disabled);
+  color: var(--src-button-link-color-disabled);
+  cursor: default;
+}

@@ -1,0 +1,2 @@
+"use client";
+import{motion as t}from"framer-motion";import n from"./ButtonLink.module.css.js";import{jsx as r}from"react/jsx-runtime";function i(i){let{children:e,disabled:o,linkFactory:l,styles:s,theme:a,...m}=i;return null==l&&(l=function(n,i,e,o){return r(t.a,{className:n,disabled:i,transition:i?void 0:{type:"spring",stiffness:500},whileHover:i?void 0:{scale:1.03},...e,children:o})}),null==s&&(s=n),l(s.button_link+("primary"===a?" "+s.button_link_primary:"")+("secondary"===a?" "+s.button_link_secondary:""),o,m,e)}export{i as default};
