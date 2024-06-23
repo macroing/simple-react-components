@@ -10,6 +10,7 @@
   --src-mobile-menu-bar-secondary-color: #1877f2;
 
   align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
   background-color: var(--src-mobile-menu-bar-primary-color-1);
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
   display: flex;
