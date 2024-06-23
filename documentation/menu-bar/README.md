@@ -12,6 +12,7 @@ The `MenuBar` component uses the following properties:
 | `logo`                | The `logo` property contains the logo of the menu bar.                                 | Yes      |
 | `styleDesktopMenuBar` | The `styleDesktopMenuBar` property is used for styling the `DesktopMenuBar` component. | Yes      |
 | `styleMobileMenuBar`  | The `styleMobileMenuBar` property is used for styling the `MobileMenuBar` component.   | Yes      |
+| `theme`               | The `theme` property defines the theme to use. Either `"primary"` or `"secondary"`.    | Yes      |
 
 ## The `items` property
 
@@ -78,6 +79,7 @@ The `logo` property consists of an object. It has the following properties:
 
 The `DesktopMenuBar` component uses the following CSS variables:
 
+- `--src-desktop-menu-bar-badge-background-color`
 - `--src-desktop-menu-bar-badge-color`
 - `--src-desktop-menu-bar-columns`
 - `--src-desktop-menu-bar-primary-color-0`
@@ -88,6 +90,7 @@ The `DesktopMenuBar` component uses the following CSS variables:
 
 The `MobileMenuBar` component uses the following CSS variables:
 
+- `--src-mobile-menu-bar-badge-background-color`
 - `--src-mobile-menu-bar-badge-color`
 - `--src-mobile-menu-bar-primary-color-0`
 - `--src-mobile-menu-bar-primary-color-1`

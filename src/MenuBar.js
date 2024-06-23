@@ -8,11 +8,12 @@ export default function MenuBar(props) {
   const logo = props.logo;
   const styleDesktopMenuBar = props.styleDesktopMenuBar;
   const styleMobileMenuBar = props.styleMobileMenuBar;
+  const theme = props.theme;
 
   return (
     <>
-      <DesktopMenuBar columns={columns} items={items} linkFactory={linkFactory} logo={logo} style={styleDesktopMenuBar} />
-      <MobileMenuBar items={items} linkFactory={linkFactory} logo={logo} style={styleMobileMenuBar} />
+      <DesktopMenuBar columns={columns} items={items} linkFactory={linkFactory} logo={logo} style={styleDesktopMenuBar} theme={theme} />
+      <MobileMenuBar items={items} linkFactory={linkFactory} logo={logo} style={styleMobileMenuBar} theme={theme} />
     </>
   );
 }

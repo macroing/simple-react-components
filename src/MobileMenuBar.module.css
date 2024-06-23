@@ -1,5 +1,6 @@
 .mobile_menu_bar {
-  --src-mobile-menu-bar-badge-color: red;
+  --src-mobile-menu-bar-badge-background-color: red;
+  --src-mobile-menu-bar-badge-color: #ffffff;
 
   --src-mobile-menu-bar-primary-color-0: #ffffff;
   --src-mobile-menu-bar-primary-color-1: #f6f6f6;
@@ -18,6 +19,30 @@
   position: fixed;
   width: 100%;
   z-index: 9999;
+}
+
+.mobile_menu_bar.mobile_menu_bar_primary {
+  --src-mobile-menu-bar-badge-background-color: red;
+  --src-mobile-menu-bar-badge-color: #ffffff;
+
+  --src-mobile-menu-bar-primary-color-0: #5299f5;
+  --src-mobile-menu-bar-primary-color-1: #1877f2;
+  --src-mobile-menu-bar-primary-color-2: #5299f5;
+  --src-mobile-menu-bar-primary-color-3: #ffffff;
+
+  --src-mobile-menu-bar-secondary-color: #eeeeee;
+}
+
+.mobile_menu_bar.mobile_menu_bar_secondary {
+  --src-mobile-menu-bar-badge-background-color: red;
+  --src-mobile-menu-bar-badge-color: #ffffff;
+
+  --src-mobile-menu-bar-primary-color-0: #f59952;
+  --src-mobile-menu-bar-primary-color-1: #f27718;
+  --src-mobile-menu-bar-primary-color-2: #f59952;
+  --src-mobile-menu-bar-primary-color-3: #ffffff;
+
+  --src-mobile-menu-bar-secondary-color: #eeeeee;
 }
 
 .mobile_menu_bar > .a {
@@ -84,6 +109,7 @@
 }
 
 .mobile_menu_bar > .content > .ul > .li > .a {
+  color: var(--src-mobile-menu-bar-primary-color-3);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -107,10 +133,10 @@
   align-items: center;
   align-self: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
-  background-color: var(--src-mobile-menu-bar-badge-color);
+  background-color: var(--src-mobile-menu-bar-badge-background-color);
   border-radius: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
-  color: var(--src-mobile-menu-bar-primary-color-0);
+  color: var(--src-mobile-menu-bar-badge-color);
   display: inline-flex;
   flex-direction: row;
   font-size: 8px;
@@ -124,6 +150,7 @@
 .mobile_menu_bar > .content > .ul > .li > .button {
   background-color: transparent;
   border: none;
+  color: var(--src-mobile-menu-bar-primary-color-3);
   display: flex;
   flex-direction: row;
   font-size: 16px;
@@ -151,10 +178,10 @@
   align-items: center;
   align-self: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
-  background-color: var(--src-mobile-menu-bar-badge-color);
+  background-color: var(--src-mobile-menu-bar-badge-background-color);
   border-radius: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
-  color: var(--src-mobile-menu-bar-primary-color-0);
+  color: var(--src-mobile-menu-bar-badge-color);
   display: inline-flex;
   flex-direction: row;
   font-size: 8px;
@@ -252,10 +279,10 @@
   align-items: center;
   align-self: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
-  background-color: var(--src-mobile-menu-bar-badge-color);
+  background-color: var(--src-mobile-menu-bar-badge-background-color);
   border-radius: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
-  color: var(--src-mobile-menu-bar-primary-color-0);
+  color: var(--src-mobile-menu-bar-badge-color);
   display: inline-flex;
   flex-direction: row;
   font-size: 8px;
@@ -298,10 +325,10 @@
   align-items: center;
   align-self: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
-  background-color: var(--src-mobile-menu-bar-badge-color);
+  background-color: var(--src-mobile-menu-bar-badge-background-color);
   border-radius: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
-  color: var(--src-mobile-menu-bar-primary-color-0);
+  color: var(--src-mobile-menu-bar-badge-color);
   display: inline-flex;
   flex-direction: row;
   font-size: 8px;
@@ -330,10 +357,10 @@
   align-items: center;
   align-self: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
-  background-color: var(--src-mobile-menu-bar-badge-color);
+  background-color: var(--src-mobile-menu-bar-badge-background-color);
   border-radius: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
-  color: var(--src-mobile-menu-bar-primary-color-0);
+  color: var(--src-mobile-menu-bar-badge-color);
   display: inline-flex;
   flex-direction: row;
   font-size: 8px;
@@ -373,7 +400,7 @@
   background-color: var(--src-mobile-menu-bar-primary-color-3);
   bottom: 0;
   content: "";
-  filter: brightness(0.5);
+  filter: brightness(1);
   height: 3px;
   left: 0;
   position: absolute;
@@ -385,7 +412,7 @@
 .mobile_menu_bar > .icon::before {
   background-color: var(--src-mobile-menu-bar-primary-color-3);
   content: "";
-  filter: brightness(0.5);
+  filter: brightness(1);
   height: 3px;
   left: 0;
   position: absolute;
@@ -397,12 +424,12 @@
 
 .mobile_menu_bar > .icon:hover {
   cursor: pointer;
-  filter: brightness(0);
+  filter: brightness(1);
 }
 
 .mobile_menu_bar > .icon > .middle {
   background-color: var(--src-mobile-menu-bar-primary-color-3);
-  filter: brightness(0.5);
+  filter: brightness(1);
   height: 3px;
   left: 0;
   position: absolute;

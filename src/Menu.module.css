@@ -175,6 +175,8 @@
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
   background-color: var(--src-menu-primary-color-3);
   border-bottom: 1px solid var(--src-menu-primary-color-1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   display: flex;
   flex-direction: row;
   gap: 20px;

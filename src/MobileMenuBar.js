@@ -10,6 +10,7 @@ export default function MobileMenuBar(props) {
   const logo = props.logo;
   const style = props.style;
   const styles = props.styles || importedStyles;
+  const theme = props.theme;
 
   const mobileMenuBarIconRef = useRef();
   const mobileMenuContentRef = useRef();
@@ -38,7 +39,7 @@ export default function MobileMenuBar(props) {
   }
 
   return (
-    <nav className={styles.mobile_menu_bar} style={style}>
+    <nav className={styles.mobile_menu_bar + (theme === "primary" ? " " + styles.mobile_menu_bar_primary : "") + (theme === "secondary" ? " " + styles.mobile_menu_bar_secondary : "")} style={style}>
       {logo && linkFactory(styles.a, logo.href, undefined, <img alt={logo.alt} className={styles.img} src={logo.src} />)}
       <div className={styles.icon} onClick={onMobileMenuToggle} ref={mobileMenuBarIconRef}>
         <div className={styles.middle}></div>
