@@ -24,6 +24,30 @@
   z-index: 9999;
 }
 
+.desktop_menu_bar.desktop_menu_bar_danger {
+  --src-desktop-menu-bar-badge-background-color: red;
+  --src-desktop-menu-bar-badge-color: #ffffff;
+
+  --src-desktop-menu-bar-primary-color-0: #cc6666;
+  --src-desktop-menu-bar-primary-color-1: #993333;
+  --src-desktop-menu-bar-primary-color-2: #cc6666;
+  --src-desktop-menu-bar-primary-color-3: #ffffff;
+
+  --src-desktop-menu-bar-secondary-color: #eeeeee;
+}
+
+.desktop_menu_bar.desktop_menu_bar_dark {
+  --src-desktop-menu-bar-badge-background-color: red;
+  --src-desktop-menu-bar-badge-color: #ffffff;
+
+  --src-desktop-menu-bar-primary-color-0: #666666;
+  --src-desktop-menu-bar-primary-color-1: #333333;
+  --src-desktop-menu-bar-primary-color-2: #666666;
+  --src-desktop-menu-bar-primary-color-3: #ffffff;
+
+  --src-desktop-menu-bar-secondary-color: #eeeeee;
+}
+
 .desktop_menu_bar.desktop_menu_bar_primary {
   --src-desktop-menu-bar-badge-background-color: red;
   --src-desktop-menu-bar-badge-color: #ffffff;
@@ -43,6 +67,18 @@
   --src-desktop-menu-bar-primary-color-0: #f59952;
   --src-desktop-menu-bar-primary-color-1: #f27718;
   --src-desktop-menu-bar-primary-color-2: #f59952;
+  --src-desktop-menu-bar-primary-color-3: #ffffff;
+
+  --src-desktop-menu-bar-secondary-color: #eeeeee;
+}
+
+.desktop_menu_bar.desktop_menu_bar_success {
+  --src-desktop-menu-bar-badge-background-color: red;
+  --src-desktop-menu-bar-badge-color: #ffffff;
+
+  --src-desktop-menu-bar-primary-color-0: #66cc66;
+  --src-desktop-menu-bar-primary-color-1: #339933;
+  --src-desktop-menu-bar-primary-color-2: #66cc66;
   --src-desktop-menu-bar-primary-color-3: #ffffff;
 
   --src-desktop-menu-bar-secondary-color: #eeeeee;

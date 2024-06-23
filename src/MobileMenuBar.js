@@ -39,7 +39,7 @@ export default function MobileMenuBar(props) {
   }
 
   return (
-    <nav className={styles.mobile_menu_bar + (theme === "primary" ? " " + styles.mobile_menu_bar_primary : "") + (theme === "secondary" ? " " + styles.mobile_menu_bar_secondary : "")} style={style}>
+    <nav className={styles.mobile_menu_bar + (theme === "danger" ? " " + styles.mobile_menu_bar_danger : "") + (theme === "dark" ? " " + styles.mobile_menu_bar_dark : "") + (theme === "primary" ? " " + styles.mobile_menu_bar_primary : "") + (theme === "secondary" ? " " + styles.mobile_menu_bar_secondary : "") + (theme === "success" ? " " + styles.mobile_menu_bar_success : "")} style={style}>
       {logo && linkFactory(styles.a, logo.href, undefined, <img alt={logo.alt} className={styles.img} src={logo.src} />)}
       <div className={styles.icon} onClick={onMobileMenuToggle} ref={mobileMenuBarIconRef}>
         <div className={styles.middle}></div>

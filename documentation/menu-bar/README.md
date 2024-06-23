@@ -4,15 +4,15 @@ The `MenuBar` component represents a menu bar. It uses either the `DesktopMenuBa
 
 The `MenuBar` component uses the following properties:
 
-| Name                  | Description                                                                            | Optional |
-| --------------------- | -------------------------------------------------------------------------------------- | -------- |
-| `columns`             | The `columns` property describes how many columns the menus should have.               | Yes      |
-| `items`               | The `items` property contains the items of the menu bar.                               | No       |
-| `linkFactory`         | The `linkFactory` property is a function that returns a link.                          | Yes      |
-| `logo`                | The `logo` property contains the logo of the menu bar.                                 | Yes      |
-| `styleDesktopMenuBar` | The `styleDesktopMenuBar` property is used for styling the `DesktopMenuBar` component. | Yes      |
-| `styleMobileMenuBar`  | The `styleMobileMenuBar` property is used for styling the `MobileMenuBar` component.   | Yes      |
-| `theme`               | The `theme` property defines the theme to use. Either `"primary"` or `"secondary"`.    | Yes      |
+| Name                  | Description                                                                                                            | Optional |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------- |
+| `columns`             | The `columns` property describes how many columns the menus should have.                                               | Yes      |
+| `items`               | The `items` property contains the items of the menu bar.                                                               | No       |
+| `linkFactory`         | The `linkFactory` property is a function that returns a link.                                                          | Yes      |
+| `logo`                | The `logo` property contains the logo of the menu bar.                                                                 | Yes      |
+| `styleDesktopMenuBar` | The `styleDesktopMenuBar` property is used for styling the `DesktopMenuBar` component.                                 | Yes      |
+| `styleMobileMenuBar`  | The `styleMobileMenuBar` property is used for styling the `MobileMenuBar` component.                                   | Yes      |
+| `theme`               | The `theme` property defines the theme to use. Either `"danger"`, `"dark"`, `"primary"`, `"secondary"` or `"success"`. | Yes      |
 
 ## The `items` property
 

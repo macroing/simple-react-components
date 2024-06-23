@@ -19,7 +19,7 @@ export default function Footer(props) {
   }
 
   return (
-    <footer className={styles.footer + (theme === "primary" ? " " + styles.footer_primary : "") + (theme === "secondary" ? " " + styles.footer_secondary : "")} style={{ "--src-footer-columns": items.length || 1 }}>
+    <footer className={styles.footer + (theme === "danger" ? " " + styles.footer_danger : "") + (theme === "dark" ? " " + styles.footer_dark : "") + (theme === "primary" ? " " + styles.footer_primary : "") + (theme === "secondary" ? " " + styles.footer_secondary : "") + (theme === "success" ? " " + styles.footer_success : "")} style={{ "--src-footer-columns": items.length || 1 }}>
       {title && <div className={styles.title}>{title}</div>}
       <div className={styles.content}>
         {items.map((item, itemIndex) => (
