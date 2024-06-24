@@ -11,9 +11,9 @@ export default function Menu(props) {
   const styles = props.styles || importedStyles;
   const title = props.title;
 
-  function defaultLinkFactory(className, href, onClick, children) {
+  function defaultLinkFactory(className, href, children) {
     return (
-      <a className={className} href={href} onClick={onClick}>
+      <a className={className} href={href}>
         {children}
       </a>
     );
@@ -36,7 +36,6 @@ export default function Menu(props) {
                   linkFactory(
                     styles.a,
                     item.href,
-                    (e) => setIsVisible(false),
                     <>
                       {item.icon && <span aria-hidden className={item.icon + " " + styles.icon}></span>} <span>{item.text}</span> {item.badge && <span className={styles.badge}>{item.badge}</span>}
                     </>
