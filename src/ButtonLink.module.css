@@ -49,6 +49,7 @@
   border-color: var(--src-button-link-border-color-hover);
   color: var(--src-button-link-color-hover);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button_link:disabled {
