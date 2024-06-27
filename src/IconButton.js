@@ -14,7 +14,7 @@ export default function IconButton(props) {
 
   return (
     <motion.button className={styles.icon_button + (isLarge ? " " + styles.icon_button_large : "")} onClick={onClick} transition={{ type: "spring", stiffness: 500 }} whileHover={{ scale: 1.2 }} {...rest}>
-      <span className={className}></span>
+      <span aria-hidden className={className}></span>
     </motion.button>
   );
 }

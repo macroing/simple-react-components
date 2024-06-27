@@ -1,0 +1,104 @@
+.image_uploader_container {
+  --src-image-uploader-background-color: #333333;
+  --src-image-uploader-border-color: #ffffff;
+  --src-image-uploader-close-background-color: red;
+  --src-image-uploader-close-background-color-hover: darkred;
+  --src-image-uploader-close-border-color: red;
+  --src-image-uploader-close-border-color-hover: darkred;
+  --src-image-uploader-close-color: #ffffff;
+  --src-image-uploader-close-color-hover: #ffffff;
+  --src-image-uploader-upload-background-color: #eeeeee;
+  --src-image-uploader-upload-background-color-hover: #ffffff;
+  --src-image-uploader-upload-border-color: #dddddd;
+  --src-image-uploader-upload-border-color-hover: #dddddd;
+  --src-image-uploader-upload-color: #333333;
+  --src-image-uploader-upload-color-hover: #1877f2;
+
+  align-items: center;
+  backdrop-filter: blur(4px) grayscale(100%);
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 9999;
+}
+
+.image_uploader_container > .image_uploader {
+  align-items: center;
+  background-color: var(--src-image-uploader-background-color);
+  border: 5px solid var(--src-image-uploader-border-color);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.image_uploader_container > .image_uploader > img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.image_uploader_container > .image_uploader > .close {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-image-uploader-close-background-color);
+  border: 1px solid var(--src-image-uploader-close-border-color);
+  border-radius: 50%;
+  color: var(--src-image-uploader-close-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 25px;
+}
+
+.image_uploader_container > .image_uploader > .close:hover {
+  background-color: var(--src-image-uploader-close-background-color-hover);
+  border-color: var(--src-image-uploader-close-border-color-hover);
+  color: var(--src-image-uploader-close-color-hover);
+}
+
+.image_uploader_container > .image_uploader > .upload {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-image-uploader-upload-background-color);
+  border: 1px solid var(--src-image-uploader-upload-border-color);
+  border-radius: 50%;
+  color: var(--src-image-uploader-upload-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  justify-content: center;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  width: 25px;
+}
+
+.image_uploader_container > .image_uploader > .upload:hover {
+  background-color: var(--src-image-uploader-upload-background-color-hover);
+  border-color: var(--src-image-uploader-upload-border-color-hover);
+  color: var(--src-image-uploader-upload-color-hover);
+}
+
+@media only screen and (min-width: 769px) {
+  .image_uploader_container > .image_uploader {
+    height: 600px;
+    width: 600px;
+  }
+}

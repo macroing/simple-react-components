@@ -34,6 +34,7 @@ The components in this library will be described below.
 - [Header](https://github.com/macroing/simple-react-components/tree/master/documentation/header) provides a component that defines a header.
 - [IconButton](https://github.com/macroing/simple-react-components/tree/master/documentation/icon-button) provides a component that defines an icon button.
 - [Image](https://github.com/macroing/simple-react-components/tree/master/documentation/image) provides a component that defines an image.
+- [ImageUploader](https://github.com/macroing/simple-react-components/tree/master/documentation/image-uploader) provides a component that defines an image uploader.
 - [ImageViewer](https://github.com/macroing/simple-react-components/tree/master/documentation/image-viewer) provides a component that defines an image viewer.
 - [Input](https://github.com/macroing/simple-react-components/tree/master/documentation/input) provides a component that defines an input.
 - [Jumbotron](https://github.com/macroing/simple-react-components/tree/master/documentation/jumbotron) provides a component that defines a jumbotron.
