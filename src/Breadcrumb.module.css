@@ -1,0 +1,110 @@
+.breadcrumb_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.breadcrumb_container > .breadcrumb_desktop {
+  color: #333333;
+  display: none;
+  flex-direction: row;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  padding: 20px;
+  width: 100%;
+}
+
+.breadcrumb_container > .breadcrumb_desktop > .item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.breadcrumb_container > .breadcrumb_desktop > .item > a:hover {
+  color: #1877f2;
+  text-decoration: underline;
+}
+
+.breadcrumb_container > .breadcrumb_desktop > .item:last-child {
+  font-weight: bold;
+}
+
+.breadcrumb_container > .breadcrumb_mobile {
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  padding: 20px;
+  width: 100%;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item.item_button:hover {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item > .menu {
+  background-color: #f6f6f6;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  left: 0px;
+  list-style-type: none;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  z-index: 9999;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item > .menu.menu_visible {
+  display: flex;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item > .menu > .item {
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-wrap: nowrap;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item > .menu > .item > a:hover {
+  color: #1877f2;
+  text-decoration: underline;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item > a:hover {
+  color: #1877f2;
+  text-decoration: underline;
+}
+
+.breadcrumb_container > .breadcrumb_mobile > .item:last-child {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 769px) {
+  .breadcrumb_container > .breadcrumb_desktop {
+    display: flex;
+  }
+
+  .breadcrumb_container > .breadcrumb_mobile {
+    display: none;
+  }
+}
