@@ -1,0 +1,29 @@
+.progress_bar {
+  --src-progress-bar-background-color: #f9f9f9;
+  --src-progress-bar-border-color: #dddddd;
+  --src-progress-bar-progress-background-color: #1877f2;
+  --src-progress-bar-progress-border-color: #1877f2;
+  --src-progress-bar-progress-color: #ffffff;
+
+  background-color: var(--src-progress-bar-background-color);
+  border: 1px solid var(--src-progress-bar-border-color);
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.39) inset, 0 -1px 1px #ffffff, 0 1px 0 #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.progress_bar > .progress {
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: var(--src-progress-bar-progress-background-color);
+  border: 1px solid var(--src-progress-bar-progress-border-color);
+  border-radius: 5px;
+  color: var(--src-progress-bar-progress-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}

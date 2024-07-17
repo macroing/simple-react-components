@@ -27,6 +27,7 @@ import OptionList from "./src/OptionList";
 import Pagination from "./src/Pagination";
 import Panel from "./src/Panel";
 import PopupMenu from "./src/PopupMenu";
+import ProgressBar from "./src/ProgressBar";
 import Select from "./src/Select";
 import Stars from "./src/Stars";
 import TabPane from "./src/TabPane";
@@ -37,4 +38,4 @@ import ThreeColumnLayout from "./src/ThreeColumnLayout";
 import TooltipContainer from "./src/TooltipContainer";
 import TwoColumnLayout from "./src/TwoColumnLayout";
 
-export { Accordion, Background, Breadcrumb, Button, ButtonLink, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, IconButton, Image, ImageUploader, ImageViewer, Input, Jumbotron, LinkButton, Menu, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, PopupMenu, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };
+export { Accordion, Background, Breadcrumb, Button, ButtonLink, Card, Carousel, Chip, DesktopMenuBar, Dialog, FileInputButtonLabel, Footer, Form, Header, IconButton, Image, ImageUploader, ImageViewer, Input, Jumbotron, LinkButton, Menu, MenuBar, MobileMenuBar, OneColumnLayout, OptionList, Pagination, Panel, PopupMenu, ProgressBar, Select, Stars, TabPane, Table, TaskBar, TextArea, ThreeColumnLayout, TooltipContainer, TwoColumnLayout };

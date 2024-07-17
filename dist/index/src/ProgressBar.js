@@ -1,0 +1,1 @@
+import r from"./ProgressBar.module.css.js";import{jsx as s,jsxs as e}from"react/jsx-runtime";function t(t){const o=t.percent,a=t.style,l=t.styles||r,c=Math.round(o);return s("div",{className:l.progress_bar,style:a,children:e("div",{className:l.progress,style:{width:c+"%"},children:[c,"%"]})})}export{t as default};
