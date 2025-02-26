@@ -1,0 +1,70 @@
+.context_menu_container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.context_menu_container .context_menu {
+  background-color: #f6f6f6;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  padding: 10px;
+  position: absolute;
+}
+
+.context_menu_container .context_menu > li {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.context_menu_container .context_menu > li > a {
+  align-items: center;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  gap: 10px;
+  justify-content: space-between;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.context_menu_container .context_menu > li > a:hover {
+  color: #1877f2;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.context_menu_container .context_menu > li > button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  gap: 10px;
+  justify-content: space-between;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.context_menu_container .context_menu > li > button:hover {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.context_menu_container .context_menu > li > button.button_selected {
+  color: #1877f2;
+}

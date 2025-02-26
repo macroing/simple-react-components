@@ -1,0 +1,1 @@
+import s from"./Icon.module.css.js";import{jsx as e}from"react/jsx-runtime";function a(a){const c=a.className,o=a.styles||s;return e("div",{className:o.icon,children:e("span",{className:c})})}export{a as default};

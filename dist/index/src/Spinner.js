@@ -1,0 +1,1 @@
+import e from"./Spinner.module.css.js";import{jsx as n}from"react/jsx-runtime";function r(r){const s=r.styles||e;return n("div",{className:s.spinner_container,children:n("div",{className:s.spinner})})}export{r as default};

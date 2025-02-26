@@ -23,7 +23,7 @@ export default function Accordion(props) {
   return (
     <div className={styles.accordion} style={style}>
       {items.map((item, itemIndex) => (
-        <div className={styles.item} key={"item-" + itemIndex}>
+        <div className={styles.item} key={item.key ? item.key : "item-" + itemIndex}>
           <div className={styles.title} onClick={(e) => onClickItem(e, item)}>
             <span>{item.title}</span>
             <span aria-hidden className={"fa fa-chevron-" + (currentItem === item ? "up" : "down")}></span>

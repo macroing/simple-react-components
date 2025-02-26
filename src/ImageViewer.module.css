@@ -68,7 +68,7 @@
 
 @media only screen and (min-width: 769px) {
   .image_viewer_container > .image_viewer {
-    height: 600px;
-    width: 600px;
+    height: calc(100vh - 200px);
+    width: calc(100vw - 200px);
   }
 }

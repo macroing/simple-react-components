@@ -20,6 +20,7 @@
 .card > .content {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   gap: 20px;
   padding: 20px;
   width: 100%;
@@ -47,6 +48,12 @@
 
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
+}
+
+.card > .content > .separator {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .card > .content > .title {

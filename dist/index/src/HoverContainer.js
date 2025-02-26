@@ -1,0 +1,1 @@
+import e from"./HoverContainer.module.css.js";import{jsxs as o,jsx as r}from"react/jsx-runtime";function n(n){let{children:t,hoverComponent:l,styleHoverComponent:s,styles:i,...m}=n;return null==i&&(i=e),o("div",{className:i.hover_container,...m,children:[t,r("div",{className:i.hover_component,style:s,children:l})]})}export{n as default};

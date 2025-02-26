@@ -76,6 +76,7 @@
 .footer > .content > ul > li {
   color: var(--src-footer-color);
   margin: 10px;
+  text-shadow: hsla(0, 0%, 100%, 0.6) 0 -1px 0, hsla(0, 0%, 20%, 0.9) 0 2px 2px;
 }
 
 .footer > .content > ul > li > a {
@@ -94,6 +95,7 @@
   flex-direction: row;
   justify-content: center;
   margin: 20px;
+  text-shadow: hsla(0, 0%, 100%, 0.6) 0 -1px 0, hsla(0, 0%, 20%, 0.9) 0 2px 2px;
 }
 
 .footer > .title {
@@ -109,6 +111,7 @@
   height: 60px;
   justify-content: center;
   padding: 10px;
+  text-shadow: hsla(0, 0%, 100%, 0.6) 0 -1px 0, hsla(0, 0%, 20%, 0.9) 0 2px 2px;
 }
 
 @media only screen and (min-width: 769px) {

@@ -1,4 +1,11 @@
-.image {
+.image_container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+}
+
+.image_container > .image {
   --src-image-border-color: #ffffff;
 
   border: 5px solid var(--src-image-border-color);
@@ -9,7 +16,15 @@
   width: 100%;
 }
 
-.image:hover {
+.image_container > .image:hover {
   cursor: pointer;
   filter: brightness(85%);
+}
+
+.image_container > .image_content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }

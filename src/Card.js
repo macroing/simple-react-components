@@ -19,6 +19,7 @@ export default function Card(props) {
       <div className={styles.content}>
         {title && <h2 className={styles.title}>{title}</h2>}
         {paragraph && <p className={styles.paragraph}>{paragraph}</p>}
+        <div className={styles.separator}></div>
         {children}
         {buttons && buttons.length > 0 && (
           <div className={styles.buttons}>

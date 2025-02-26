@@ -13,7 +13,7 @@ export default function Button(props) {
   }
 
   return (
-    <motion.button className={styles.button + (theme === "primary" ? " " + styles.button_primary : "") + (theme === "secondary" ? " " + styles.button_secondary : "")} disabled={disabled} transition={disabled ? undefined : { type: "spring", stiffness: 500 }} whileHover={disabled ? undefined : { scale: 1.03 }} {...rest}>
+    <motion.button className={styles.button + (theme === "failure" ? " " + styles.button_failure : "") + (theme === "primary" ? " " + styles.button_primary : "") + (theme === "secondary" ? " " + styles.button_secondary : "")} disabled={disabled} transition={disabled ? undefined : { type: "spring", stiffness: 500 }} whileHover={disabled ? undefined : { scale: 1.03 }} {...rest}>
       {children}
     </motion.button>
   );

@@ -25,6 +25,10 @@
   font-size: 24px;
 }
 
+.icon_button.icon_button_unbordered {
+  border: none;
+}
+
 .icon_button:hover {
   background-color: var(--src-icon-button-background-color-hover);
   border-color: var(--src-icon-button-border-color-hover);

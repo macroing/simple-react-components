@@ -25,14 +25,18 @@ The components in this library will be described below.
 - [Breadcrumb](https://github.com/macroing/simple-react-components/tree/master/documentation/breadcrumb) provides a component that defines a breadcrumb.
 - [Button](https://github.com/macroing/simple-react-components/tree/master/documentation/button) provides a component that defines a button.
 - [ButtonLink](https://github.com/macroing/simple-react-components/tree/master/documentation/button-link) provides a component that defines a button link.
+- [Calendar](https://github.com/macroing/simple-react-components/tree/master/documentation/calendar) provides a component that defines a calendar.
 - [Card](https://github.com/macroing/simple-react-components/tree/master/documentation/card) provides a component that defines a card.
 - [Carousel](https://github.com/macroing/simple-react-components/tree/master/documentation/carousel) provides a component that defines a carousel.
 - [Chip](https://github.com/macroing/simple-react-components/tree/master/documentation/chip) provides a component that defines a chip.
+- [ContextMenu](https://github.com/macroing/simple-react-components/tree/master/documentation/context-menu) provides a component that defines a context menu.
 - [Dialog](https://github.com/macroing/simple-react-components/tree/master/documentation/dialog) provides a component that defines a dialog.
 - [FileInputButtonLabel](https://github.com/macroing/simple-react-components/tree/master/documentation/file-input-button-label) provides a component that defines a file input button label.
 - [Footer](https://github.com/macroing/simple-react-components/tree/master/documentation/footer) provides a component that defines a footer.
 - [Form](https://github.com/macroing/simple-react-components/tree/master/documentation/form) provides a component that defines a form.
 - [Header](https://github.com/macroing/simple-react-components/tree/master/documentation/header) provides a component that defines a header.
+- [HoverContainer](https://github.com/macroing/simple-react-components/tree/master/documentation/hover-container) provides a component that defines a hover container.
+- [Icon](https://github.com/macroing/simple-react-components/tree/master/documentation/icon) provides a component that defines an icon.
 - [IconButton](https://github.com/macroing/simple-react-components/tree/master/documentation/icon-button) provides a component that defines an icon button.
 - [Image](https://github.com/macroing/simple-react-components/tree/master/documentation/image) provides a component that defines an image.
 - [ImageUploader](https://github.com/macroing/simple-react-components/tree/master/documentation/image-uploader) provides a component that defines an image uploader.
@@ -49,6 +53,7 @@ The components in this library will be described below.
 - [PopupMenu](https://github.com/macroing/simple-react-components/tree/master/documentation/popup-menu) provides a component that defines a popup menu.
 - [ProgressBar](https://github.com/macroing/simple-react-components/tree/master/documentation/progress-bar) provides a component that defines a progress bar.
 - [Select](https://github.com/macroing/simple-react-components/tree/master/documentation/select) provides a component that defines a select.
+- [Spinner](https://github.com/macroing/simple-react-components/tree/master/documentation/spinner) provides a component that defines a spinner.
 - [Stars](https://github.com/macroing/simple-react-components/tree/master/documentation/stars) provides a component that defines stars.
 - [TabPane](https://github.com/macroing/simple-react-components/tree/master/documentation/tab-pane) provides a component that defines a tab pane.
 - [Table](https://github.com/macroing/simple-react-components/tree/master/documentation/table) provides a component that defines a table.
