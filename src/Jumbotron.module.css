@@ -1,9 +1,9 @@
 .jumbotron {
-  --src-jumbotron-background-color: #dddddd;
-  --src-jumbotron-border-color: #dddddd;
-  --src-jumbotron-color: #333333;
-  --src-jumbotron-hr-border-color-0: #eeeeee;
-  --src-jumbotron-hr-border-color-1: #cccccc;
+  --src-jumbotron-background-color: var(--src-color-01);
+  --src-jumbotron-border-color: var(--src-color-01);
+  --src-jumbotron-color: var(--src-color-04);
+  --src-jumbotron-hr-border-color-0: var(--src-color-02);
+  --src-jumbotron-hr-border-color-1: var(--src-color-14);
 
   background-color: var(--src-jumbotron-background-color);
   border-bottom: 1px solid var(--src-jumbotron-border-color);

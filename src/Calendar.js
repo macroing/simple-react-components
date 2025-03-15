@@ -193,7 +193,7 @@ export default function Calendar(props) {
             <div className={styles.separator}></div>
             <div className={styles.close_container}>
               <button className={styles.close} onClick={onClickToggleCalendar}>
-                <span className="fa fa-close"></span>
+                <span className="fa fa-times-circle"></span>
               </button>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function Calendar(props) {
                       <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
                         <ul>
                           <li>
-                            <button disabled={isBooked(day, index) || new Date(year, monthIndex, day.date.getDate(), hour) < new Date()} onClick={onClickSelectFrom}>
+                            <button disabled={isBooked(day, index) || new Date(day.date.getFullYear(), day.date.getMonth(), day.date.getDate(), hour) < new Date()} onClick={onClickSelectFrom}>
                               {language === "sv" ? "Välj från" : "Select from"}
                             </button>
                           </li>

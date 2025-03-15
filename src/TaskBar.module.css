@@ -1,10 +1,10 @@
 .task_bar {
-  --src-task-bar-background-color: #f6f6f6;
-  --src-task-bar-border-color: #dddddd;
-  --src-task-bar-item-background-color: #f6f6f6;
-  --src-task-bar-item-background-color-hover: #1877f2;
-  --src-task-bar-item-color: #333333;
-  --src-task-bar-item-color-hover: #ffffff;
+  --src-task-bar-background-color: var(--src-color-00);
+  --src-task-bar-border-color: var(--src-color-01);
+  --src-task-bar-item-background-color: var(--src-color-00);
+  --src-task-bar-item-background-color-hover: var(--src-color-03);
+  --src-task-bar-item-color: var(--src-color-04);
+  --src-task-bar-item-color-hover: var(--src-color-05);
 
   background-color: var(--src-task-bar-background-color);
   border: 1px solid var(--src-task-bar-border-color);

@@ -1,9 +1,9 @@
 .progress_bar {
-  --src-progress-bar-background-color: #f9f9f9;
-  --src-progress-bar-border-color: #dddddd;
-  --src-progress-bar-progress-background-color: #1877f2;
-  --src-progress-bar-progress-border-color: #1877f2;
-  --src-progress-bar-progress-color: #ffffff;
+  --src-progress-bar-background-color: var(--src-color-23);
+  --src-progress-bar-border-color: var(--src-color-01);
+  --src-progress-bar-progress-background-color: var(--src-color-03);
+  --src-progress-bar-progress-border-color: var(--src-color-03);
+  --src-progress-bar-progress-color: var(--src-color-05);
 
   background-color: var(--src-progress-bar-background-color);
   border: 1px solid var(--src-progress-bar-border-color);

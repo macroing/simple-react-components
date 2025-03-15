@@ -1,10 +1,10 @@
 .footer {
-  --src-footer-background-color: #eeeeee;
-  --src-footer-color: #333333;
-  --src-footer-color-hover: #333333;
+  --src-footer-background-color: var(--src-color-02);
+  --src-footer-color: var(--src-color-04);
+  --src-footer-color-hover: var(--src-color-04);
   --src-footer-columns: 1;
-  --src-footer-title-background-color: #eeeeee;
-  --src-footer-title-border-color: #dddddd;
+  --src-footer-title-background-color: var(--src-color-02);
+  --src-footer-title-border-color: var(--src-color-01);
 
   background-color: var(--src-footer-background-color);
   display: flex;
@@ -12,43 +12,43 @@
 }
 
 .footer.footer_danger {
-  --src-footer-background-color: #993333;
-  --src-footer-color: #ffffff;
-  --src-footer-color-hover: #ffffff;
-  --src-footer-title-background-color: #993333;
-  --src-footer-title-border-color: #993333;
+  --src-footer-background-color: var(--src-color-16);
+  --src-footer-color: var(--src-color-05);
+  --src-footer-color-hover: var(--src-color-05);
+  --src-footer-title-background-color: var(--src-color-16);
+  --src-footer-title-border-color: var(--src-color-16);
 }
 
 .footer.footer_dark {
-  --src-footer-background-color: #333333;
-  --src-footer-color: #ffffff;
-  --src-footer-color-hover: #ffffff;
-  --src-footer-title-background-color: #333333;
-  --src-footer-title-border-color: #333333;
+  --src-footer-background-color: var(--src-color-04);
+  --src-footer-color: var(--src-color-05);
+  --src-footer-color-hover: var(--src-color-05);
+  --src-footer-title-background-color: var(--src-color-04);
+  --src-footer-title-border-color: var(--src-color-04);
 }
 
 .footer.footer_primary {
-  --src-footer-background-color: #1877f2;
-  --src-footer-color: #ffffff;
-  --src-footer-color-hover: #ffffff;
-  --src-footer-title-background-color: #1877f2;
-  --src-footer-title-border-color: #1877f2;
+  --src-footer-background-color: var(--src-color-03);
+  --src-footer-color: var(--src-color-05);
+  --src-footer-color-hover: var(--src-color-05);
+  --src-footer-title-background-color: var(--src-color-03);
+  --src-footer-title-border-color: var(--src-color-03);
 }
 
 .footer.footer_secondary {
-  --src-footer-background-color: #f27718;
-  --src-footer-color: #ffffff;
-  --src-footer-color-hover: #ffffff;
-  --src-footer-title-background-color: #f27718;
-  --src-footer-title-border-color: #f27718;
+  --src-footer-background-color: var(--src-color-09);
+  --src-footer-color: var(--src-color-05);
+  --src-footer-color-hover: var(--src-color-05);
+  --src-footer-title-background-color: var(--src-color-09);
+  --src-footer-title-border-color: var(--src-color-09);
 }
 
 .footer.footer_success {
-  --src-footer-background-color: #339933;
-  --src-footer-color: #ffffff;
-  --src-footer-color-hover: #ffffff;
-  --src-footer-title-background-color: #339933;
-  --src-footer-title-border-color: #339933;
+  --src-footer-background-color: var(--src-color-19);
+  --src-footer-color: var(--src-color-05);
+  --src-footer-color-hover: var(--src-color-05);
+  --src-footer-title-background-color: var(--src-color-19);
+  --src-footer-title-border-color: var(--src-color-19);
 }
 
 .footer > .content {

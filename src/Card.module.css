@@ -1,10 +1,10 @@
 .card {
-  --src-card-background-color: #f6f6f6;
-  --src-card-background-color-hover: #1877f2;
-  --src-card-border-color: #dddddd;
-  --src-card-border-color-hover: #1877f2;
-  --src-card-color: #333333;
-  --src-card-color-hover: #ffffff;
+  --src-card-background-color: var(--src-color-00);
+  --src-card-background-color-hover: var(--src-color-03);
+  --src-card-border-color: var(--src-color-01);
+  --src-card-border-color-hover: var(--src-color-03);
+  --src-card-color: var(--src-color-04);
+  --src-card-color-hover: var(--src-color-05);
 
   background-color: var(--src-card-background-color);
   border: 1px solid var(--src-card-border-color);

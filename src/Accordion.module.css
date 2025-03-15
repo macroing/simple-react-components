@@ -1,12 +1,12 @@
 .accordion {
-  --src-accordion-content-background-color: #f6f6f6;
-  --src-accordion-content-border-color: #dddddd;
-  --src-accordion-title-background-color: #eeeeee;
-  --src-accordion-title-background-color-hover: #1877f2;
-  --src-accordion-title-border-color: #dddddd;
-  --src-accordion-title-border-color-hover: #1877f2;
-  --src-accordion-title-color: #333333;
-  --src-accordion-title-color-hover: #ffffff;
+  --src-accordion-content-background-color: var(--src-color-00);
+  --src-accordion-content-border-color: var(--src-color-01);
+  --src-accordion-title-background-color: var(--src-color-02);
+  --src-accordion-title-background-color-hover: var(--src-color-03);
+  --src-accordion-title-border-color: var(--src-color-01);
+  --src-accordion-title-border-color-hover: var(--src-color-03);
+  --src-accordion-title-color: var(--src-color-04);
+  --src-accordion-title-color-hover: var(--src-color-05);
 
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
   display: flex;

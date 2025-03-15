@@ -6,7 +6,7 @@
 }
 
 .image_container > .image {
-  --src-image-border-color: #ffffff;
+  --src-image-border-color: var(--src-color-05);
 
   border: 5px solid var(--src-image-border-color);
   border-radius: 5px;

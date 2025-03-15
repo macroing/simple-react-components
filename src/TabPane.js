@@ -74,7 +74,7 @@ export default function TabPane(props) {
             <button className={styles.button + (currentTabIndex === tabIndex ? " " + styles.active : "")} key={"tab-" + tabIndex} onClick={() => setCurrentTabIndex(tabIndex)}>
               {tab}
               <div className={styles.close} onClick={(e) => onClickTabClose(e, tabIndex)}>
-                <span aria-hidden className="fa fa-close"></span>
+                <span aria-hidden className="fa fa-times-circle"></span>
               </div>
             </button>
           ) : null

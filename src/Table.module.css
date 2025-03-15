@@ -1,9 +1,9 @@
 .table {
-  --src-table-background-color: #f6f6f6;
-  --src-table-background-color-even: #f6f6f6;
-  --src-table-background-color-odd: #ffffff;
-  --src-table-border-color: #dddddd;
-  --src-table-color: #333333;
+  --src-table-background-color: var(--src-color-00);
+  --src-table-background-color-even: var(--src-color-00);
+  --src-table-background-color-odd: var(--src-color-05);
+  --src-table-border-color: var(--src-color-01);
+  --src-table-color: var(--src-color-04);
 
   border: 1px solid var(--src-table-border-color);
   border-collapse: collapse;

@@ -28,6 +28,10 @@ The components in this library will be described below.
 - [Calendar](https://github.com/macroing/simple-react-components/tree/master/documentation/calendar) provides a component that defines a calendar.
 - [Card](https://github.com/macroing/simple-react-components/tree/master/documentation/card) provides a component that defines a card.
 - [Carousel](https://github.com/macroing/simple-react-components/tree/master/documentation/carousel) provides a component that defines a carousel.
+- [Chat](https://github.com/macroing/simple-react-components/tree/master/documentation/chat) provides a component that defines a chat.
+- [ChatContainer](https://github.com/macroing/simple-react-components/tree/master/documentation/chat-container) provides a component that defines a chat container.
+- [ChatMessage](https://github.com/macroing/simple-react-components/tree/master/documentation/chat-message) provides a component that defines a chat message.
+- [ChatUtilities](https://github.com/macroing/simple-react-components/tree/master/documentation/chat-utilities) provides utilities for the chat system.
 - [Chip](https://github.com/macroing/simple-react-components/tree/master/documentation/chip) provides a component that defines a chip.
 - [ContextMenu](https://github.com/macroing/simple-react-components/tree/master/documentation/context-menu) provides a component that defines a context menu.
 - [Dialog](https://github.com/macroing/simple-react-components/tree/master/documentation/dialog) provides a component that defines a dialog.
@@ -43,6 +47,7 @@ The components in this library will be described below.
 - [ImageViewer](https://github.com/macroing/simple-react-components/tree/master/documentation/image-viewer) provides a component that defines an image viewer.
 - [Input](https://github.com/macroing/simple-react-components/tree/master/documentation/input) provides a component that defines an input.
 - [Jumbotron](https://github.com/macroing/simple-react-components/tree/master/documentation/jumbotron) provides a component that defines a jumbotron.
+- [Label](https://github.com/macroing/simple-react-components/tree/master/documentation/label) provides a component that defines a label.
 - [LinkButton](https://github.com/macroing/simple-react-components/tree/master/documentation/link-button) provides a component that defines a link button.
 - [Menu](https://github.com/macroing/simple-react-components/tree/master/documentation/menu) provides a component that defines a menu.
 - [MenuBar](https://github.com/macroing/simple-react-components/tree/master/documentation/menu-bar) provides a component that defines a menu bar.

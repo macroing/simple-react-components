@@ -1,7 +1,7 @@
 .option_list {
-  --src-option-list-background-color: #f6f6f6;
-  --src-option-list-border-color: #dddddd;
-  --src-option-list-color: #333333;
+  --src-option-list-background-color: var(--src-color-00);
+  --src-option-list-border-color: var(--src-color-01);
+  --src-option-list-color: var(--src-color-04);
 
   background-color: var(--src-option-list-background-color);
   border: 1px solid var(--src-option-list-border-color);

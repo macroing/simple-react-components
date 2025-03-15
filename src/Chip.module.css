@@ -1,10 +1,10 @@
 .chip {
-  --src-chip-background-color: #eeeeee;
-  --src-chip-background-color-hover: #ffffff;
-  --src-chip-border-color: #dddddd;
-  --src-chip-border-color-hover: #dddddd;
-  --src-chip-color: #333333;
-  --src-chip-color-hover: #1877f2;
+  --src-chip-background-color: var(--src-color-02);
+  --src-chip-background-color-hover: var(--src-color-05);
+  --src-chip-border-color: var(--src-color-01);
+  --src-chip-border-color-hover: var(--src-color-01);
+  --src-chip-color: var(--src-color-04);
+  --src-chip-color-hover: var(--src-color-03);
 
   align-items: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
@@ -21,21 +21,21 @@
 }
 
 .chip.chip_primary {
-  --src-chip-background-color: #1877f2;
-  --src-chip-background-color-hover: #5299f5;
-  --src-chip-border-color: #1877f2;
-  --src-chip-border-color-hover: #5299f5;
-  --src-chip-color: #ffffff;
-  --src-chip-color-hover: #ffffff;
+  --src-chip-background-color: var(--src-color-03);
+  --src-chip-background-color-hover: var(--src-color-08);
+  --src-chip-border-color: var(--src-color-03);
+  --src-chip-border-color-hover: var(--src-color-08);
+  --src-chip-color: var(--src-color-05);
+  --src-chip-color-hover: var(--src-color-05);
 }
 
 .chip.chip_secondary {
-  --src-chip-background-color: #f27718;
-  --src-chip-background-color-hover: #f59952;
-  --src-chip-border-color: #f27718;
-  --src-chip-border-color-hover: #f59952;
-  --src-chip-color: #ffffff;
-  --src-chip-color-hover: #ffffff;
+  --src-chip-background-color: var(--src-color-09);
+  --src-chip-background-color-hover: var(--src-color-10);
+  --src-chip-border-color: var(--src-color-09);
+  --src-chip-border-color-hover: var(--src-color-10);
+  --src-chip-color: var(--src-color-05);
+  --src-chip-color-hover: var(--src-color-05);
 }
 
 .chip.chip_clickable:hover {

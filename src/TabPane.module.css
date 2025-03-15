@@ -1,22 +1,22 @@
 .tab_pane {
-  --src-tab-pane-button-background-color: #eeeeee;
-  --src-tab-pane-button-background-color-active: #ffffff;
-  --src-tab-pane-button-background-color-hover: #ffffff;
-  --src-tab-pane-button-border-color: #dddddd;
-  --src-tab-pane-button-border-color-active: #dddddd;
-  --src-tab-pane-button-border-color-hover: #dddddd;
-  --src-tab-pane-button-close-color: red;
-  --src-tab-pane-button-color: #333333;
-  --src-tab-pane-button-color-active: #1877f2;
-  --src-tab-pane-button-color-hover: #1877f2;
+  --src-tab-pane-button-background-color: var(--src-color-02);
+  --src-tab-pane-button-background-color-active: var(--src-color-05);
+  --src-tab-pane-button-background-color-hover: var(--src-color-05);
+  --src-tab-pane-button-border-color: var(--src-color-01);
+  --src-tab-pane-button-border-color-active: var(--src-color-01);
+  --src-tab-pane-button-border-color-hover: var(--src-color-01);
+  --src-tab-pane-button-close-color: var(--src-color-06);
+  --src-tab-pane-button-color: var(--src-color-04);
+  --src-tab-pane-button-color-active: var(--src-color-03);
+  --src-tab-pane-button-color-hover: var(--src-color-03);
 
-  --src-tab-pane-icon-background-color: #333333;
+  --src-tab-pane-icon-background-color: var(--src-color-04);
 
-  --src-tab-pane-menu-background-color: #f6f6f6;
+  --src-tab-pane-menu-background-color: var(--src-color-00);
 
-  --src-tab-pane-background-color: #ffffff;
-  --src-tab-pane-border-color: #dddddd;
-  --src-tab-pane-color: #333333;
+  --src-tab-pane-background-color: var(--src-color-05);
+  --src-tab-pane-border-color: var(--src-color-01);
+  --src-tab-pane-color: var(--src-color-04);
 
   align-items: center;
   background-color: var(--src-tab-pane-background-color);

@@ -1,13 +1,13 @@
 .desktop_menu_bar {
-  --src-desktop-menu-bar-badge-background-color: red;
-  --src-desktop-menu-bar-badge-color: #ffffff;
+  --src-desktop-menu-bar-badge-background-color: var(--src-color-06);
+  --src-desktop-menu-bar-badge-color: var(--src-color-05);
 
-  --src-desktop-menu-bar-primary-color-0: #ffffff;
-  --src-desktop-menu-bar-primary-color-1: #f6f6f6;
-  --src-desktop-menu-bar-primary-color-2: #dddddd;
-  --src-desktop-menu-bar-primary-color-3: #333333;
+  --src-desktop-menu-bar-primary-color-0: var(--src-color-05);
+  --src-desktop-menu-bar-primary-color-1: var(--src-color-00);
+  --src-desktop-menu-bar-primary-color-2: var(--src-color-01);
+  --src-desktop-menu-bar-primary-color-3: var(--src-color-04);
 
-  --src-desktop-menu-bar-secondary-color: #1877f2;
+  --src-desktop-menu-bar-secondary-color: var(--src-color-03);
 
   --src-desktop-menu-bar-columns: 1;
 
@@ -25,63 +25,63 @@
 }
 
 .desktop_menu_bar.desktop_menu_bar_danger {
-  --src-desktop-menu-bar-badge-background-color: red;
-  --src-desktop-menu-bar-badge-color: #ffffff;
+  --src-desktop-menu-bar-badge-background-color: var(--src-color-06);
+  --src-desktop-menu-bar-badge-color: var(--src-color-05);
 
-  --src-desktop-menu-bar-primary-color-0: #cc6666;
-  --src-desktop-menu-bar-primary-color-1: #993333;
-  --src-desktop-menu-bar-primary-color-2: #cc6666;
-  --src-desktop-menu-bar-primary-color-3: #ffffff;
+  --src-desktop-menu-bar-primary-color-0: var(--src-color-15);
+  --src-desktop-menu-bar-primary-color-1: var(--src-color-16);
+  --src-desktop-menu-bar-primary-color-2: var(--src-color-15);
+  --src-desktop-menu-bar-primary-color-3: var(--src-color-05);
 
-  --src-desktop-menu-bar-secondary-color: #eeeeee;
+  --src-desktop-menu-bar-secondary-color: var(--src-color-02);
 }
 
 .desktop_menu_bar.desktop_menu_bar_dark {
-  --src-desktop-menu-bar-badge-background-color: red;
-  --src-desktop-menu-bar-badge-color: #ffffff;
+  --src-desktop-menu-bar-badge-background-color: var(--src-color-06);
+  --src-desktop-menu-bar-badge-color: var(--src-color-05);
 
-  --src-desktop-menu-bar-primary-color-0: #666666;
-  --src-desktop-menu-bar-primary-color-1: #333333;
-  --src-desktop-menu-bar-primary-color-2: #666666;
-  --src-desktop-menu-bar-primary-color-3: #ffffff;
+  --src-desktop-menu-bar-primary-color-0: var(--src-color-17);
+  --src-desktop-menu-bar-primary-color-1: var(--src-color-04);
+  --src-desktop-menu-bar-primary-color-2: var(--src-color-17);
+  --src-desktop-menu-bar-primary-color-3: var(--src-color-05);
 
-  --src-desktop-menu-bar-secondary-color: #eeeeee;
+  --src-desktop-menu-bar-secondary-color: var(--src-color-02);
 }
 
 .desktop_menu_bar.desktop_menu_bar_primary {
-  --src-desktop-menu-bar-badge-background-color: red;
-  --src-desktop-menu-bar-badge-color: #ffffff;
+  --src-desktop-menu-bar-badge-background-color: var(--src-color-06);
+  --src-desktop-menu-bar-badge-color: var(--src-color-05);
 
-  --src-desktop-menu-bar-primary-color-0: #5299f5;
-  --src-desktop-menu-bar-primary-color-1: #1877f2;
-  --src-desktop-menu-bar-primary-color-2: #5299f5;
-  --src-desktop-menu-bar-primary-color-3: #ffffff;
+  --src-desktop-menu-bar-primary-color-0: var(--src-color-08);
+  --src-desktop-menu-bar-primary-color-1: var(--src-color-03);
+  --src-desktop-menu-bar-primary-color-2: var(--src-color-08);
+  --src-desktop-menu-bar-primary-color-3: var(--src-color-05);
 
-  --src-desktop-menu-bar-secondary-color: #eeeeee;
+  --src-desktop-menu-bar-secondary-color: var(--src-color-02);
 }
 
 .desktop_menu_bar.desktop_menu_bar_secondary {
-  --src-desktop-menu-bar-badge-background-color: red;
-  --src-desktop-menu-bar-badge-color: #ffffff;
+  --src-desktop-menu-bar-badge-background-color: var(--src-color-06);
+  --src-desktop-menu-bar-badge-color: var(--src-color-05);
 
-  --src-desktop-menu-bar-primary-color-0: #f59952;
-  --src-desktop-menu-bar-primary-color-1: #f27718;
-  --src-desktop-menu-bar-primary-color-2: #f59952;
-  --src-desktop-menu-bar-primary-color-3: #ffffff;
+  --src-desktop-menu-bar-primary-color-0: var(--src-color-10);
+  --src-desktop-menu-bar-primary-color-1: var(--src-color-09);
+  --src-desktop-menu-bar-primary-color-2: var(--src-color-10);
+  --src-desktop-menu-bar-primary-color-3: var(--src-color-05);
 
-  --src-desktop-menu-bar-secondary-color: #eeeeee;
+  --src-desktop-menu-bar-secondary-color: var(--src-color-02);
 }
 
 .desktop_menu_bar.desktop_menu_bar_success {
-  --src-desktop-menu-bar-badge-background-color: red;
-  --src-desktop-menu-bar-badge-color: #ffffff;
+  --src-desktop-menu-bar-badge-background-color: var(--src-color-06);
+  --src-desktop-menu-bar-badge-color: var(--src-color-05);
 
-  --src-desktop-menu-bar-primary-color-0: #66cc66;
-  --src-desktop-menu-bar-primary-color-1: #339933;
-  --src-desktop-menu-bar-primary-color-2: #66cc66;
-  --src-desktop-menu-bar-primary-color-3: #ffffff;
+  --src-desktop-menu-bar-primary-color-0: var(--src-color-18);
+  --src-desktop-menu-bar-primary-color-1: var(--src-color-19);
+  --src-desktop-menu-bar-primary-color-2: var(--src-color-18);
+  --src-desktop-menu-bar-primary-color-3: var(--src-color-05);
 
-  --src-desktop-menu-bar-secondary-color: #eeeeee;
+  --src-desktop-menu-bar-secondary-color: var(--src-color-02);
 }
 
 .desktop_menu_bar > .a {

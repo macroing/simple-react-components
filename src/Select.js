@@ -3,7 +3,7 @@
 import importedStyles from "./Select.module.css";
 
 export default function Select(props) {
-  let { children, styles, ...rest } = props;
+  let { children, styles, theme, ...rest } = props;
 
   //If no styles property has been assigned, the imported CSS module will be used for styling.
   if (styles === null || styles === undefined) {
@@ -11,7 +11,7 @@ export default function Select(props) {
   }
 
   return (
-    <select className={styles.select} {...rest}>
+    <select className={styles.select + (theme === "failure" ? " " + styles.select_failure : "") + (theme === "success" ? " " + styles.select_success : "")} {...rest}>
       {children}
     </select>
   );

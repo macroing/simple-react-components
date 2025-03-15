@@ -1,7 +1,7 @@
 .form {
-  --src-form-background-color: #f6f6f6;
-  --src-form-border-color: #dddddd;
-  --src-form-color: #333333;
+  --src-form-background-color: var(--src-color-00);
+  --src-form-border-color: var(--src-color-01);
+  --src-form-color: var(--src-color-04);
 
   background-color: var(--src-form-background-color);
   border: 1px solid var(--src-form-border-color);

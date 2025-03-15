@@ -1,7 +1,7 @@
 .icon {
-  --src-icon-background-color: red;
-  --src-icon-border-color: #ffffff;
-  --src-icon-color: #ffffff;
+  --src-icon-background-color: var(--src-color-06);
+  --src-icon-border-color: var(--src-color-05);
+  --src-icon-color: var(--src-color-05);
 
   align-items: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);

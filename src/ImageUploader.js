@@ -79,7 +79,7 @@ export default function ImageUploader(props) {
         )}
         {src && (
           <motion.div className={styles.close} onClick={(e) => setSrc("")} transition={{ type: "spring", stiffness: 700 }} whileHover={{ scale: 1.2 }}>
-            <span aria-hidden className="fa fa-close"></span>
+            <span aria-hidden className="fa fa-times-circle"></span>
           </motion.div>
         )}
         {errorMessage && <div className={styles.error_message}>{errorMessage}</div>}
@@ -91,7 +91,7 @@ export default function ImageUploader(props) {
         )}
         {!src && (
           <motion.div className={styles.close} onClick={onClickClose} transition={{ type: "spring", stiffness: 700 }} whileHover={{ scale: 1.2 }}>
-            <span aria-hidden className="fa fa-close"></span>
+            <span aria-hidden className="fa fa-times-circle"></span>
           </motion.div>
         )}
       </div>

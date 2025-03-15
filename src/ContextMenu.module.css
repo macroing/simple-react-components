@@ -10,8 +10,8 @@
 }
 
 .context_menu_container .context_menu {
-  background-color: #f6f6f6;
-  border: 1px solid #dddddd;
+  background-color: var(--src-color-00);
+  border: 1px solid var(--src-color-01);
   border-radius: 5px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
   display: flex;
@@ -30,7 +30,7 @@
 
 .context_menu_container .context_menu > li > a {
   align-items: center;
-  color: #333333;
+  color: var(--src-color-04);
   display: flex;
   flex-direction: row;
   font-size: 16px;
@@ -41,7 +41,7 @@
 }
 
 .context_menu_container .context_menu > li > a:hover {
-  color: #1877f2;
+  color: var(--src-color-03);
   cursor: pointer;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@
   align-items: center;
   background-color: transparent;
   border: 1px solid transparent;
-  color: #333333;
+  color: var(--src-color-04);
   display: flex;
   flex-direction: row;
   font-size: 16px;
@@ -61,10 +61,10 @@
 }
 
 .context_menu_container .context_menu > li > button:hover {
-  color: #1877f2;
+  color: var(--src-color-03);
   cursor: pointer;
 }
 
 .context_menu_container .context_menu > li > button.button_selected {
-  color: #1877f2;
+  color: var(--src-color-03);
 }

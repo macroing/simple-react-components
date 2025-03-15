@@ -1,7 +1,7 @@
 .panel {
-  --src-panel-background-color: #f6f6f6;
-  --src-panel-border-color: #dddddd;
-  --src-panel-color: #333333;
+  --src-panel-background-color: var(--src-color-00);
+  --src-panel-border-color: var(--src-color-01);
+  --src-panel-color: var(--src-color-04);
 
   align-items: flex-start;
   background-color: var(--src-panel-background-color);

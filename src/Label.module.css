@@ -1,0 +1,19 @@
+.label {
+  --src-label-color: var(--src-color-04);
+
+  color: var(--src-label-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.label.label_failure {
+  --src-label-color: var(--src-color-06);
+
+  color: var(--src-label-color);
+}
+
+.label.label_success {
+  --src-label-color: var(--src-color-13);
+
+  color: var(--src-label-color);
+}

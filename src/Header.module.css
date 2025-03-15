@@ -1,13 +1,13 @@
 .header {
-  --src-header-background-color: #f6f6f6;
-  --src-header-border-color: #dddddd;
-  --src-header-button-background-color: #eeeeee;
-  --src-header-button-background-color-hover: #ffffff;
-  --src-header-button-border-color: #dddddd;
-  --src-header-button-border-color-hover: #dddddd;
-  --src-header-button-color: #333333;
-  --src-header-button-color-hover: #1877f2;
-  --src-header-image-border-color: #ffffff;
+  --src-header-background-color: var(--src-color-00);
+  --src-header-border-color: var(--src-color-01);
+  --src-header-button-background-color: var(--src-color-02);
+  --src-header-button-background-color-hover: var(--src-color-05);
+  --src-header-button-border-color: var(--src-color-01);
+  --src-header-button-border-color-hover: var(--src-color-01);
+  --src-header-button-color: var(--src-color-04);
+  --src-header-button-color-hover: var(--src-color-03);
+  --src-header-image-border-color: var(--src-color-05);
 
   background-color: var(--src-header-background-color);
   border-bottom: 1px solid var(--src-header-border-color);

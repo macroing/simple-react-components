@@ -1,11 +1,16 @@
 .breadcrumb_container {
+  --src-breadcrumb-background-color: var(--src-color-00);
+  --src-breadcrumb-border-color: var(--src-color-01);
+  --src-breadcrumb-color: var(--src-color-04);
+  --src-breadcrumb-color-hover: var(--src-color-03);
+
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
 .breadcrumb_container > .breadcrumb_desktop {
-  color: #333333;
+  color: var(--src-breadcrumb-color);
   display: none;
   flex-direction: row;
   gap: 10px;
@@ -23,7 +28,7 @@
 }
 
 .breadcrumb_container > .breadcrumb_desktop > .item > a:hover {
-  color: #1877f2;
+  color: var(--src-breadcrumb-color-hover);
   text-decoration: underline;
 }
 
@@ -32,7 +37,7 @@
 }
 
 .breadcrumb_container > .breadcrumb_mobile {
-  color: #333333;
+  color: var(--src-breadcrumb-color);
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -53,13 +58,13 @@
 }
 
 .breadcrumb_container > .breadcrumb_mobile > .item.item_button:hover {
-  color: #1877f2;
+  color: var(--src-breadcrumb-color-hover);
   cursor: pointer;
 }
 
 .breadcrumb_container > .breadcrumb_mobile > .item > .menu {
-  background-color: #f6f6f6;
-  border: 1px solid #dddddd;
+  background-color: var(--src-breadcrumb-background-color);
+  border: 1px solid var(--src-breadcrumb-border-color);
   border-radius: 5px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
   display: none;
@@ -78,7 +83,7 @@
 }
 
 .breadcrumb_container > .breadcrumb_mobile > .item > .menu > .item {
-  color: #333333;
+  color: var(--src-breadcrumb-color);
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -86,12 +91,12 @@
 }
 
 .breadcrumb_container > .breadcrumb_mobile > .item > .menu > .item > a:hover {
-  color: #1877f2;
+  color: var(--src-breadcrumb-color-hover);
   text-decoration: underline;
 }
 
 .breadcrumb_container > .breadcrumb_mobile > .item > a:hover {
-  color: #1877f2;
+  color: var(--src-breadcrumb-color-hover);
   text-decoration: underline;
 }
 

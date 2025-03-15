@@ -1,12 +1,32 @@
 .image_viewer_container {
-  --src-image-viewer-background-color: #333333;
-  --src-image-viewer-border-color: #ffffff;
-  --src-image-viewer-close-background-color: red;
-  --src-image-viewer-close-background-color-hover: darkred;
-  --src-image-viewer-close-border-color: red;
-  --src-image-viewer-close-border-color-hover: darkred;
-  --src-image-viewer-close-color: #ffffff;
-  --src-image-viewer-close-color-hover: #ffffff;
+  --src-image-viewer-background-color: var(--src-color-04);
+  --src-image-viewer-border-color: var(--src-color-05);
+  --src-image-viewer-close-background-color: var(--src-color-06);
+  --src-image-viewer-close-background-color-hover: var(--src-color-07);
+  --src-image-viewer-close-border-color: var(--src-color-06);
+  --src-image-viewer-close-border-color-hover: var(--src-color-07);
+  --src-image-viewer-close-color: var(--src-color-05);
+  --src-image-viewer-close-color-hover: var(--src-color-05);
+  --src-image-viewer-image-background-color: var(--src-color-04);
+  --src-image-viewer-image-background-color-hover: var(--src-color-04);
+  --src-image-viewer-image-border-color: var(--src-color-05);
+  --src-image-viewer-image-border-color-hover: var(--src-color-14);
+  --src-image-viewer-image-background-color-selected: var(--src-color-04);
+  --src-image-viewer-image-background-color-selected-hover: var(--src-color-04);
+  --src-image-viewer-image-border-color-selected: var(--src-color-18);
+  --src-image-viewer-image-border-color-selected-hover: var(--src-color-19);
+  --src-image-viewer-next-button-background-color: var(--src-color-04);
+  --src-image-viewer-next-button-background-color-hover: var(--src-color-05);
+  --src-image-viewer-next-button-border-color: var(--src-color-05);
+  --src-image-viewer-next-button-border-color-hover: var(--src-color-05);
+  --src-image-viewer-next-button-color: var(--src-color-05);
+  --src-image-viewer-next-button-color-hover: var(--src-color-03);
+  --src-image-viewer-previous-button-background-color: var(--src-color-04);
+  --src-image-viewer-previous-button-background-color-hover: var(--src-color-05);
+  --src-image-viewer-previous-button-border-color: var(--src-color-05);
+  --src-image-viewer-previous-button-border-color-hover: var(--src-color-05);
+  --src-image-viewer-previous-button-color: var(--src-color-05);
+  --src-image-viewer-previous-button-color-hover: var(--src-color-03);
 
   align-items: center;
   backdrop-filter: blur(4px) grayscale(100%);
@@ -27,11 +47,10 @@
   border: 5px solid var(--src-image-viewer-border-color);
   border-radius: 10px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   height: 300px;
   justify-content: center;
-  overflow: hidden;
   position: relative;
   width: 300px;
 }
@@ -64,6 +83,135 @@
   background-color: var(--src-image-viewer-close-background-color-hover);
   border-color: var(--src-image-viewer-close-border-color-hover);
   color: var(--src-image-viewer-close-color-hover);
+}
+
+.image_viewer_container > .image_viewer > .images_container {
+  align-items: center;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: center;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.image_viewer_container > .image_viewer > .images_container > .images {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: auto;
+  overflow-x: auto;
+  padding: 10px;
+  width: auto;
+}
+
+.image_viewer_container > .image_viewer > .images_container > .images > .image {
+  align-items: center;
+  background-color: var(--src-image-viewer-image-background-color);
+  border: 3px solid var(--src-image-viewer-image-border-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  max-height: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  min-width: 50px;
+  width: 50px;
+}
+
+.image_viewer_container > .image_viewer > .images_container > .images > .image > img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.image_viewer_container > .image_viewer > .images_container > .images > .image:hover {
+  background-color: var(--src-image-viewer-image-background-color-hover);
+  border-color: var(--src-image-viewer-image-border-color-hover);
+  cursor: pointer;
+}
+
+.image_viewer_container > .image_viewer > .images_container > .images > .image.image_selected {
+  background-color: var(--src-image-viewer-image-background-color-selected);
+  border-color: var(--src-image-viewer-image-border-color-selected);
+}
+
+.image_viewer_container > .image_viewer > .images_container > .images > .image.image_selected:hover {
+  background-color: var(--src-image-viewer-image-background-color-selected-hover);
+  border-color: var(--src-image-viewer-image-border-color-selected-hover);
+}
+
+.image_viewer_container > .image_viewer > .next {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+}
+
+.image_viewer_container > .image_viewer > .next > .next_button {
+  align-items: center;
+  background-color: var(--src-image-viewer-next-button-background-color);
+  border: 3px solid var(--src-image-viewer-next-button-border-color);
+  border-radius: 100%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-image-viewer-next-button-color);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
+}
+
+.image_viewer_container > .image_viewer > .next > .next_button:hover {
+  background-color: var(--src-image-viewer-next-button-background-color-hover);
+  border-color: var(--src-image-viewer-next-button-border-color-hover);
+  color: var(--src-image-viewer-next-button-color-hover);
+  cursor: pointer;
+}
+
+.image_viewer_container > .image_viewer > .previous {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: flex-start;
+  left: 0px;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+
+.image_viewer_container > .image_viewer > .previous > .previous_button {
+  align-items: center;
+  background-color: var(--src-image-viewer-previous-button-background-color);
+  border: 3px solid var(--src-image-viewer-previous-button-border-color);
+  border-radius: 100%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-image-viewer-previous-button-color);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
+}
+
+.image_viewer_container > .image_viewer > .previous > .previous_button:hover {
+  background-color: var(--src-image-viewer-previous-button-background-color-hover);
+  border-color: var(--src-image-viewer-previous-button-border-color-hover);
+  color: var(--src-image-viewer-previous-button-color-hover);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 769px) {

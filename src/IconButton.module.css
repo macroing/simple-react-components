@@ -1,10 +1,10 @@
 .icon_button {
-  --src-icon-button-background-color: red;
-  --src-icon-button-background-color-hover: darkred;
-  --src-icon-button-border-color: #ffffff;
-  --src-icon-button-border-color-hover: #ffffff;
-  --src-icon-button-color: #ffffff;
-  --src-icon-button-color-hover: #ffffff;
+  --src-icon-button-background-color: var(--src-color-06);
+  --src-icon-button-background-color-hover: var(--src-color-07);
+  --src-icon-button-border-color: var(--src-color-05);
+  --src-icon-button-border-color-hover: var(--src-color-05);
+  --src-icon-button-color: var(--src-color-05);
+  --src-icon-button-color-hover: var(--src-color-05);
 
   align-items: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);

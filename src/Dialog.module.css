@@ -1,10 +1,10 @@
 .dialog_container {
-  --src-dialog-background-color: #ffffff;
-  --src-dialog-border-color: #dddddd;
-  --src-dialog-color: #333333;
-  --src-dialog-header-background-color: #eeeeee;
-  --src-dialog-header-border-color: #dddddd;
-  --src-dialog-header-color: #333333;
+  --src-dialog-background-color: var(--src-color-05);
+  --src-dialog-border-color: var(--src-color-01);
+  --src-dialog-color: var(--src-color-04);
+  --src-dialog-header-background-color: var(--src-color-02);
+  --src-dialog-header-border-color: var(--src-color-01);
+  --src-dialog-header-color: var(--src-color-04);
 
   align-items: center;
   backdrop-filter: blur(4px) grayscale(100%);

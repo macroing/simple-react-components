@@ -1,7 +1,7 @@
 .link_button {
-  --src-link-button-color: #333333;
-  --src-link-button-color-disabled: #dddddd;
-  --src-link-button-color-hover: #1877f2;
+  --src-link-button-color: var(--src-color-04);
+  --src-link-button-color-disabled: var(--src-color-01);
+  --src-link-button-color-hover: var(--src-color-03);
 
   background-color: transparent;
   border: none;

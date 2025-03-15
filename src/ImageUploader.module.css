@@ -1,21 +1,21 @@
 .image_uploader_container {
-  --src-image-uploader-background-color: #333333;
-  --src-image-uploader-border-color: #ffffff;
-  --src-image-uploader-close-background-color: red;
-  --src-image-uploader-close-background-color-hover: darkred;
-  --src-image-uploader-close-border-color: red;
-  --src-image-uploader-close-border-color-hover: darkred;
-  --src-image-uploader-close-color: #ffffff;
-  --src-image-uploader-close-color-hover: #ffffff;
-  --src-image-uploader-error-message-background-color: #f8d7da;
-  --src-image-uploader-error-message-border-color: #f1aeb5;
-  --src-image-uploader-error-message-color: #58151c;
-  --src-image-uploader-upload-background-color: #eeeeee;
-  --src-image-uploader-upload-background-color-hover: #ffffff;
-  --src-image-uploader-upload-border-color: #dddddd;
-  --src-image-uploader-upload-border-color-hover: #dddddd;
-  --src-image-uploader-upload-color: #333333;
-  --src-image-uploader-upload-color-hover: #1877f2;
+  --src-image-uploader-background-color: var(--src-color-04);
+  --src-image-uploader-border-color: var(--src-color-05);
+  --src-image-uploader-close-background-color: var(--src-color-06);
+  --src-image-uploader-close-background-color-hover: var(--src-color-07);
+  --src-image-uploader-close-border-color: var(--src-color-06);
+  --src-image-uploader-close-border-color-hover: var(--src-color-07);
+  --src-image-uploader-close-color: var(--src-color-05);
+  --src-image-uploader-close-color-hover: var(--src-color-05);
+  --src-image-uploader-error-message-background-color: var(--src-color-20);
+  --src-image-uploader-error-message-border-color: var(--src-color-21);
+  --src-image-uploader-error-message-color: var(--src-color-22);
+  --src-image-uploader-upload-background-color: var(--src-color-02);
+  --src-image-uploader-upload-background-color-hover: var(--src-color-05);
+  --src-image-uploader-upload-border-color: var(--src-color-01);
+  --src-image-uploader-upload-border-color-hover: var(--src-color-01);
+  --src-image-uploader-upload-color: var(--src-color-04);
+  --src-image-uploader-upload-color-hover: var(--src-color-03);
 
   align-items: center;
   backdrop-filter: blur(4px) grayscale(100%);

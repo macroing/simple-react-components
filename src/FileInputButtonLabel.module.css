@@ -1,13 +1,13 @@
 .file_input_button_label {
-  --src-file-input-button-label-background-color: #eeeeee;
-  --src-file-input-button-label-background-color-disabled: #eeeeee;
-  --src-file-input-button-label-background-color-hover: #ffffff;
-  --src-file-input-button-label-border-color: #dddddd;
-  --src-file-input-button-label-border-color-disabled: #dddddd;
-  --src-file-input-button-label-border-color-hover: #dddddd;
-  --src-file-input-button-label-color: #333333;
-  --src-file-input-button-label-color-disabled: #dddddd;
-  --src-file-input-button-label-color-hover: #1877f2;
+  --src-file-input-button-label-background-color: var(--src-color-02);
+  --src-file-input-button-label-background-color-disabled: var(--src-color-02);
+  --src-file-input-button-label-background-color-hover: var(--src-color-05);
+  --src-file-input-button-label-border-color: var(--src-color-01);
+  --src-file-input-button-label-border-color-disabled: var(--src-color-01);
+  --src-file-input-button-label-border-color-hover: var(--src-color-01);
+  --src-file-input-button-label-color: var(--src-color-04);
+  --src-file-input-button-label-color-disabled: var(--src-color-01);
+  --src-file-input-button-label-color-hover: var(--src-color-03);
 
   align-items: center;
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
@@ -27,21 +27,21 @@
 }
 
 .file_input_button_label.file_input_button_label_primary {
-  --src-file-input-button-label-background-color: #1877f2;
-  --src-file-input-button-label-background-color-hover: #5299f5;
-  --src-file-input-button-label-border-color: #1877f2;
-  --src-file-input-button-label-border-color-hover: #5299f5;
-  --src-file-input-button-label-color: #ffffff;
-  --src-file-input-button-label-color-hover: #ffffff;
+  --src-file-input-button-label-background-color: var(--src-color-03);
+  --src-file-input-button-label-background-color-hover: var(--src-color-08);
+  --src-file-input-button-label-border-color: var(--src-color-03);
+  --src-file-input-button-label-border-color-hover: var(--src-color-08);
+  --src-file-input-button-label-color: var(--src-color-05);
+  --src-file-input-button-label-color-hover: var(--src-color-05);
 }
 
 .file_input_button_label.file_input_button_label_secondary {
-  --src-file-input-button-label-background-color: #f27718;
-  --src-file-input-button-label-background-color-hover: #f59952;
-  --src-file-input-button-label-border-color: #f27718;
-  --src-file-input-button-label-border-color-hover: #f59952;
-  --src-file-input-button-label-color: #ffffff;
-  --src-file-input-button-label-color-hover: #ffffff;
+  --src-file-input-button-label-background-color: var(--src-color-09);
+  --src-file-input-button-label-background-color-hover: var(--src-color-10);
+  --src-file-input-button-label-border-color: var(--src-color-09);
+  --src-file-input-button-label-border-color-hover: var(--src-color-10);
+  --src-file-input-button-label-color: var(--src-color-05);
+  --src-file-input-button-label-color-hover: var(--src-color-05);
 }
 
 .file_input_button_label:hover {

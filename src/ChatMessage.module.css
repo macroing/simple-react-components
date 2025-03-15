@@ -1,0 +1,234 @@
+.chat_message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chat_message > .content_container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-width: 75%;
+}
+
+.chat_message > .content_container > .content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+.chat_message > .content_container > .content > .rows {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble {
+  background-color: var(--src-color-02);
+  border: 1px solid var(--src-color-01);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-color-04);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .images {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .images > .image {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .images > .image > img {
+  border: 2px solid var(--src-color-05);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  height: 64px;
+  object-fit: cover;
+  width: 64px;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .images > .image:hover > img {
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .likes {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .likes > .icons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble > .likes > .icons > .text {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.chat_message > .content_container > .content > .rows > .bubble.bubble_self {
+  align-self: end;
+  background-color: var(--src-color-03);
+  border-color: var(--src-color-03);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  color: var(--src-color-05);
+}
+
+.chat_message > .content_container > .content > .rows > .footer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  padding: 10px 0px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .buttons > button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: var(--src-color-04);
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+  font-size: 12px;
+  gap: 5px;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .buttons > button:hover {
+  color: var(--src-color-03);
+  cursor: pointer;
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .buttons > button.active {
+  color: var(--src-color-03);
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .date_time {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .popup {
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.9);
+  border: 1px solid rgba(25, 25, 25, 0.9);
+  border-radius: 30px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  left: 10px;
+  padding: 5px;
+  position: absolute;
+  top: -50px;
+  z-index: 1;
+}
+
+.chat_message > .content_container > .content > .rows > .footer > .popup.popup_self {
+  left: auto;
+  right: 10px;
+}
+
+.chat_message > .content_container > .content > .rows.rows_self {
+  width: 100%;
+}
+
+.chat_message > .content_container > .content > .image {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  margin: 0px 10px 0px 0px;
+  position: relative;
+  width: 32px;
+}
+
+.chat_message > .content_container > .content > .image > .logged_in {
+  bottom: 3px;
+  color: var(--src-color-13);
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+}
+
+.chat_message > .content_container > .content > .image > img {
+  border: 1px solid var(--src-color-05);
+  border-radius: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.12);
+  height: 30px;
+  width: 30px;
+}
+
+.chat_message > .content_container > .content > .image.image_self {
+  margin: 0px 0px 0px 10px;
+}
+
+.chat_message > .content_container.content_container_self {
+  align-self: end;
+}
+
+.chat_message > .unread {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.chat_message > .unread > .separator {
+  background-color: var(--src-color-06);
+  display: flex;
+  flex-direction: row;
+  height: 1px;
+  width: 100%;
+}
+
+.chat_message > .unread > .text {
+  align-items: center;
+  color: var(--src-color-06);
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: center;
+}

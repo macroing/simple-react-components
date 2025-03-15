@@ -1,10 +1,10 @@
 .input {
-  --src-input-background-color: #ffffff;
-  --src-input-background-color-disabled: #f9f9f9;
-  --src-input-border-color: #dddddd;
-  --src-input-border-color-disabled: #dddddd;
-  --src-input-color: #333333;
-  --src-input-color-disabled: #dddddd;
+  --src-input-background-color: var(--src-color-05);
+  --src-input-background-color-disabled: var(--src-color-23);
+  --src-input-border-color: var(--src-color-01);
+  --src-input-border-color-disabled: var(--src-color-01);
+  --src-input-color: var(--src-color-04);
+  --src-input-color-disabled: var(--src-color-01);
 
   background-color: var(--src-input-background-color);
   border: 1px solid var(--src-input-border-color);
@@ -13,6 +13,14 @@
   color: var(--src-input-color);
   font-family: inherit;
   padding: 10px;
+}
+
+.input.input_failure {
+  --src-input-border-color: var(--src-color-06);
+}
+
+.input.input_success {
+  --src-input-border-color: var(--src-color-13);
 }
 
 .input:focus {

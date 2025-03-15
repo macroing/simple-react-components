@@ -1,9 +1,9 @@
 .stars {
-  --src-stars-star-color: #dddddd;
-  --src-stars-star-color-disabled: #dddddd;
-  --src-stars-star-color-hover: #f27718;
-  --src-stars-star-color-selected: #f27718;
-  --src-stars-star-color-selected-hover: #f27718;
+  --src-stars-star-color: var(--src-color-01);
+  --src-stars-star-color-disabled: var(--src-color-01);
+  --src-stars-star-color-hover: var(--src-color-09);
+  --src-stars-star-color-selected: var(--src-color-09);
+  --src-stars-star-color-selected-hover: var(--src-color-09);
 
   display: flex;
   flex-direction: row;

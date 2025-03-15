@@ -1,7 +1,7 @@
 .tooltip_container {
   --src-tooltip-container-background-color: rgba(50, 50, 50, 0.9);
   --src-tooltip-container-border-color: rgba(25, 25, 25, 0.9);
-  --src-tooltip-container-color: #eeeeee;
+  --src-tooltip-container-color: var(--src-color-02);
 
   align-items: flex-start;
   display: flex;

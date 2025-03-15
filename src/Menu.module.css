@@ -1,15 +1,15 @@
 .menu {
-  --src-menu-badge-color: red;
+  --src-menu-badge-color: var(--src-color-06);
 
-  --src-menu-expand-collapse-color-hover: red;
+  --src-menu-expand-collapse-color-hover: var(--src-color-06);
 
-  --src-menu-primary-color-0: #ffffff;
-  --src-menu-primary-color-1: #dddddd;
-  --src-menu-primary-color-2: #333333;
-  --src-menu-primary-color-3: #eeeeee;
-  --src-menu-primary-color-4: #f6f6f6;
+  --src-menu-primary-color-0: var(--src-color-05);
+  --src-menu-primary-color-1: var(--src-color-01);
+  --src-menu-primary-color-2: var(--src-color-04);
+  --src-menu-primary-color-3: var(--src-color-02);
+  --src-menu-primary-color-4: var(--src-color-00);
 
-  --src-menu-secondary-color: #1877f2;
+  --src-menu-secondary-color: var(--src-color-03);
 
   align-items: flex-start;
   background-color: var(--src-menu-primary-color-4);
